@@ -1,0 +1,4346 @@
+{
+  "production": {
+    "2006-01-01": {
+      "value": 16.808839,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2006-02-01": {
+      "value": 16.808839,
+      "raw_value": 16.808839,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-03-01": {
+      "value": 17.022551,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2006-04-01": {
+      "value": 17.236262999999997,
+      "raw_value": 17.236262999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-05-01": {
+      "value": 17.5784295,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2006-06-01": {
+      "value": 17.920596,
+      "raw_value": 17.920596,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-07-01": {
+      "value": 17.564069,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2006-08-01": {
+      "value": 17.207542,
+      "raw_value": 17.207542,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-09-01": {
+      "value": 17.108079000000004,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2006-10-01": {
+      "value": 17.008616000000004,
+      "raw_value": 17.008616000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-11-01": {
+      "value": 17.252438,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2006-12-01": {
+      "value": 17.49626,
+      "raw_value": 17.49626,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-01-01": {
+      "value": 17.349134499999998,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2007-02-01": {
+      "value": 17.202008999999997,
+      "raw_value": 17.202008999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-03-01": {
+      "value": 17.58524756,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2007-04-01": {
+      "value": 17.96848612,
+      "raw_value": 17.96848612,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-05-01": {
+      "value": 18.01492217,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2007-06-01": {
+      "value": 18.06135822,
+      "raw_value": 18.06135822,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-07-01": {
+      "value": 17.950981434999996,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2007-08-01": {
+      "value": 17.840604649999996,
+      "raw_value": 17.840604649999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-09-01": {
+      "value": 18.169884324999998,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2007-10-01": {
+      "value": 18.499164,
+      "raw_value": 18.499164,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-11-01": {
+      "value": 18.549437213845714,
+      "raw_value": null,
+      "imputed": true,
+      "outlier": false
+    },
+    "2007-12-01": {
+      "value": 18.599710427691427,
+      "raw_value": 18.599710427691427,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-01-01": {
+      "value": 9.952739747347147,
+      "raw_value": 9.952739747347147,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-02-01": {
+      "value": 8.951140073367268,
+      "raw_value": 8.951140073367268,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-03-01": {
+      "value": 9.168203620314863,
+      "raw_value": 9.168203620314863,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-04-01": {
+      "value": 9.257106496614814,
+      "raw_value": 9.257106496614814,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-05-01": {
+      "value": 9.70798066731152,
+      "raw_value": 9.70798066731152,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-06-01": {
+      "value": 8.948420395044387,
+      "raw_value": 8.948420395044387,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-07-01": {
+      "value": 9.221885694033078,
+      "raw_value": 9.221885694033078,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-08-01": {
+      "value": 8.772199359040439,
+      "raw_value": 8.772199359040439,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-09-01": {
+      "value": 8.626399946926488,
+      "raw_value": 8.626399946926488,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-10-01": {
+      "value": 9.315846348728064,
+      "raw_value": 9.315846348728064,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-11-01": {
+      "value": 9.051094603884069,
+      "raw_value": 9.051094603884069,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-12-01": {
+      "value": 9.614971047387868,
+      "raw_value": 9.614971047387868,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-01-01": {
+      "value": 9.84311061499684,
+      "raw_value": 9.84311061499684,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-02-01": {
+      "value": 8.525007277857624,
+      "raw_value": 8.525007277857624,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-03-01": {
+      "value": 9.174129420787029,
+      "raw_value": 9.174129420787029,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-04-01": {
+      "value": 9.15915537631787,
+      "raw_value": 9.15915537631787,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-05-01": {
+      "value": 9.540366197040637,
+      "raw_value": 9.540366197040637,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-06-01": {
+      "value": 8.341875113,
+      "raw_value": 8.341875113,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-07-01": {
+      "value": 9.257495518320436,
+      "raw_value": 9.257495518320436,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-08-01": {
+      "value": 8.785529865695715,
+      "raw_value": 8.785529865695715,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-09-01": {
+      "value": 9.475098615983848,
+      "raw_value": 9.475098615983848,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-10-01": {
+      "value": 9.722869475481055,
+      "raw_value": 9.722869475481055,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-11-01": {
+      "value": 9.358500464154094,
+      "raw_value": 9.358500464154094,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-12-01": {
+      "value": 9.55015406036483,
+      "raw_value": 9.55015406036483,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-01-01": {
+      "value": 10.275378316592043,
+      "raw_value": 10.275378316592043,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-02-01": {
+      "value": 8.916034892185788,
+      "raw_value": 8.916034892185788,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-03-01": {
+      "value": 9.954119,
+      "raw_value": 9.954119,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-04-01": {
+      "value": 9.76082104011202,
+      "raw_value": 9.76082104011202,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-05-01": {
+      "value": 10.159215,
+      "raw_value": 10.159215,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-06-01": {
+      "value": 8.991308,
+      "raw_value": 8.991308,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-07-01": {
+      "value": 9.440256,
+      "raw_value": 9.440256,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-08-01": {
+      "value": 9.44625,
+      "raw_value": 9.44625,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-09-01": {
+      "value": 9.333063,
+      "raw_value": 9.333063,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-10-01": {
+      "value": 9.615451,
+      "raw_value": 9.615451,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-11-01": {
+      "value": 9.748985,
+      "raw_value": 9.748985,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-12-01": {
+      "value": 10.363198,
+      "raw_value": 10.363198,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-01-01": {
+      "value": 10.225168,
+      "raw_value": 10.225168,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-02-01": {
+      "value": 8.993963,
+      "raw_value": 8.993963,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-03-01": {
+      "value": 9.862448,
+      "raw_value": 9.862448,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-04-01": {
+      "value": 9.701547,
+      "raw_value": 9.701547,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-05-01": {
+      "value": 10.003602,
+      "raw_value": 10.003602,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-06-01": {
+      "value": 9.524136,
+      "raw_value": 9.524136,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-07-01": {
+      "value": 10.318696,
+      "raw_value": 10.318696,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-08-01": {
+      "value": 9.668828,
+      "raw_value": 9.668828,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-09-01": {
+      "value": 9.441976,
+      "raw_value": 9.441976,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-10-01": {
+      "value": 10.510895,
+      "raw_value": 10.510895,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-11-01": {
+      "value": 9.867612,
+      "raw_value": 9.867612,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-12-01": {
+      "value": 10.683187,
+      "raw_value": 10.683187,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-01-01": {
+      "value": 10.827962,
+      "raw_value": 10.827962,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-02-01": {
+      "value": 9.767375,
+      "raw_value": 9.767375,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-03-01": {
+      "value": 10.21085,
+      "raw_value": 10.21085,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-04-01": {
+      "value": 9.919871,
+      "raw_value": 9.919871,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-05-01": {
+      "value": 10.482954,
+      "raw_value": 10.482954,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-06-01": {
+      "value": 10.438302,
+      "raw_value": 10.438302,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-07-01": {
+      "value": 10.241284,
+      "raw_value": 10.241284,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-08-01": {
+      "value": 10.012166,
+      "raw_value": 10.012166,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-09-01": {
+      "value": 9.437702,
+      "raw_value": 9.437702,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-10-01": {
+      "value": 10.595369,
+      "raw_value": 10.595369,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-11-01": {
+      "value": 9.982114,
+      "raw_value": 9.982114,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-12-01": {
+      "value": 11.168202,
+      "raw_value": 11.168202,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-01-01": {
+      "value": 10.857262,
+      "raw_value": 10.857262,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-02-01": {
+      "value": 9.736458871602597,
+      "raw_value": 9.736458871602597,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-03-01": {
+      "value": 10.1683357725875,
+      "raw_value": 10.1683357725875,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-04-01": {
+      "value": 10.3669556448529,
+      "raw_value": 10.3669556448529,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-05-01": {
+      "value": 10.9351066933934,
+      "raw_value": 10.9351066933934,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-06-01": {
+      "value": 10.6281190641107,
+      "raw_value": 10.6281190641107,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-07-01": {
+      "value": 10.909287204345,
+      "raw_value": 10.909287204345,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-08-01": {
+      "value": 10.442501656687,
+      "raw_value": 10.442501656687,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-09-01": {
+      "value": 8.80372484391607,
+      "raw_value": 8.80372484391607,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-10-01": {
+      "value": 9.98899680781804,
+      "raw_value": 9.98899680781804,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-11-01": {
+      "value": 10.1281328040716,
+      "raw_value": 10.1281328040716,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-12-01": {
+      "value": 11.192435880967,
+      "raw_value": 11.192435880967,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-01-01": {
+      "value": 10.8890811575316,
+      "raw_value": 10.8890811575316,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-02-01": {
+      "value": 9.88993329982096,
+      "raw_value": 9.88993329982096,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-03-01": {
+      "value": 10.6852331898649,
+      "raw_value": 10.6852331898649,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-04-01": {
+      "value": 10.7736580971002,
+      "raw_value": 10.7736580971002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-05-01": {
+      "value": 11.2762048241614,
+      "raw_value": 11.2762048241614,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-06-01": {
+      "value": 10.9955609190906,
+      "raw_value": 10.9955609190906,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-07-01": {
+      "value": 11.35030852,
+      "raw_value": 11.35030852,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-08-01": {
+      "value": 11.0736515891568,
+      "raw_value": 11.0736515891568,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-09-01": {
+      "value": 10.925387127807,
+      "raw_value": 10.925387127807,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-10-01": {
+      "value": 11.535263658642,
+      "raw_value": 11.535263658642,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-11-01": {
+      "value": 11.1321996994519,
+      "raw_value": 11.1321996994519,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-12-01": {
+      "value": 11.9110590909773,
+      "raw_value": 11.9110590909773,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-01-01": {
+      "value": 12.0741614623367,
+      "raw_value": 12.0741614623367,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-02-01": {
+      "value": 10.5438749714994,
+      "raw_value": 10.5438749714994,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-03-01": {
+      "value": 11.2929655602582,
+      "raw_value": 11.2929655602582,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-04-01": {
+      "value": 11.3646669798854,
+      "raw_value": 11.3646669798854,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-05-01": {
+      "value": 11.6165745638775,
+      "raw_value": 11.6165745638775,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-06-01": {
+      "value": 11.48715896,
+      "raw_value": 11.48715896,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-07-01": {
+      "value": 11.3517410499467,
+      "raw_value": 11.3517410499467,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-08-01": {
+      "value": 11.0722190592101,
+      "raw_value": 11.0722190592101,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-09-01": {
+      "value": 11.4241558832379,
+      "raw_value": 11.4241558832379,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-10-01": {
+      "value": 11.6459296369266,
+      "raw_value": 11.6459296369266,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-11-01": {
+      "value": 12.0043389579756,
+      "raw_value": 12.0043389579756,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-12-01": {
+      "value": 11.7471021964832,
+      "raw_value": 11.7471021964832,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-01-01": {
+      "value": 12.6399545901654,
+      "raw_value": 12.6399545901654,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-02-01": {
+      "value": 11.0842765344307,
+      "raw_value": 11.0842765344307,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-03-01": {
+      "value": 12.3014808659885,
+      "raw_value": 12.3014808659885,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-04-01": {
+      "value": 12.0664044721106,
+      "raw_value": 12.0664044721106,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-05-01": {
+      "value": 12.2765436291984,
+      "raw_value": 12.2765436291984,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-06-01": {
+      "value": 11.8722680945645,
+      "raw_value": 11.8722680945645,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-07-01": {
+      "value": 12.2187281384846,
+      "raw_value": 12.2187281384846,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-08-01": {
+      "value": 12.2038277707035,
+      "raw_value": 12.2038277707035,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-09-01": {
+      "value": 12.143313968738,
+      "raw_value": 12.143313968738,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-10-01": {
+      "value": 12.5900333423231,
+      "raw_value": 12.5900333423231,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-11-01": {
+      "value": 12.1883882289959,
+      "raw_value": 12.1883882289959,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-12-01": {
+      "value": 11.7988439768177,
+      "raw_value": 11.7988439768177,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-01-01": {
+      "value": 12.7606199049612,
+      "raw_value": 12.7606199049612,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-02-01": {
+      "value": 11.2017150761221,
+      "raw_value": 11.2017150761221,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-03-01": {
+      "value": 12.3230185466448,
+      "raw_value": 12.3230185466448,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-04-01": {
+      "value": 12.0042228339712,
+      "raw_value": 12.0042228339712,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-05-01": {
+      "value": 12.4243532153555,
+      "raw_value": 12.4243532153555,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-06-01": {
+      "value": 13.0429421481503,
+      "raw_value": 13.0429421481503,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-07-01": {
+      "value": 13.0495890924621,
+      "raw_value": 13.0495890924621,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-08-01": {
+      "value": 12.5727346682033,
+      "raw_value": 12.5727346682033,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-09-01": {
+      "value": 11.9305979108716,
+      "raw_value": 11.9305979108716,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-10-01": {
+      "value": 12.5337529793337,
+      "raw_value": 12.5337529793337,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-11-01": {
+      "value": 12.3212440520713,
+      "raw_value": 12.3212440520713,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-12-01": {
+      "value": 13.7290325431555,
+      "raw_value": 13.7290325431555,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-01-01": {
+      "value": 13.326107287935274,
+      "raw_value": 13.326107287935274,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-02-01": {
+      "value": 11.31123622228826,
+      "raw_value": 11.31123622228826,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-03-01": {
+      "value": 12.689621255324115,
+      "raw_value": 12.689621255324115,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-04-01": {
+      "value": 12.417334696069002,
+      "raw_value": 12.417334696069002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-05-01": {
+      "value": 12.589561392591191,
+      "raw_value": 12.589561392591191,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-06-01": {
+      "value": 13.046551124959423,
+      "raw_value": 13.046551124959423,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-07-01": {
+      "value": 12.74079780042383,
+      "raw_value": 12.74079780042383,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-08-01": {
+      "value": 13.259731057516223,
+      "raw_value": 13.259731057516223,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-09-01": {
+      "value": 12.900384556420907,
+      "raw_value": 12.900384556420907,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-10-01": {
+      "value": 13.656409148364531,
+      "raw_value": 13.656409148364531,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-11-01": {
+      "value": 13.124165940390666,
+      "raw_value": 13.124165940390666,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-12-01": {
+      "value": 13.327961517716586,
+      "raw_value": 13.327961517716586,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-01-01": {
+      "value": 13.798779636122203,
+      "raw_value": 13.798779636122203,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-02-01": {
+      "value": 12.666687876377438,
+      "raw_value": 12.666687876377438,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-03-01": {
+      "value": 13.458532487500358,
+      "raw_value": 13.458532487500358,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-04-01": {
+      "value": 13.313475290894546,
+      "raw_value": 13.313475290894546,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-05-01": {
+      "value": 14.18162469024779,
+      "raw_value": 14.18162469024779,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-06-01": {
+      "value": 14.4439000188577,
+      "raw_value": 14.4439000188577,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-07-01": {
+      "value": 14.2037456214513,
+      "raw_value": 14.2037456214513,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-08-01": {
+      "value": 14.149302,
+      "raw_value": 14.149302,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-09-01": {
+      "value": 14.3869522453914,
+      "raw_value": 14.3869522453914,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-10-01": {
+      "value": 13.8491588990292,
+      "raw_value": 13.8491588990292,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-11-01": {
+      "value": 14.6727383285518,
+      "raw_value": 14.6727383285518,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-12-01": {
+      "value": 12.837103,
+      "raw_value": 12.837103,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-01-01": {
+      "value": 14.81514,
+      "raw_value": 14.81514,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-02-01": {
+      "value": 13.698457,
+      "raw_value": 13.698457,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-03-01": {
+      "value": 13.909328,
+      "raw_value": 13.909328,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-04-01": {
+      "value": 14.6245856092004,
+      "raw_value": 14.6245856092004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-05-01": {
+      "value": 14.8830494713996,
+      "raw_value": 14.8830494713996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-06-01": {
+      "value": 14.2948249194,
+      "raw_value": 14.2948249194,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-07-01": {
+      "value": 14.9344254095913,
+      "raw_value": 14.9344254095913,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-08-01": {
+      "value": 14.6968121060529,
+      "raw_value": 14.6968121060529,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-09-01": {
+      "value": 14.2454945450915,
+      "raw_value": 14.2454945450915,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-10-01": {
+      "value": 14.3093457643759,
+      "raw_value": 14.3093457643759,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-11-01": {
+      "value": 14.2454945450915,
+      "raw_value": 14.2454945450915,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-12-01": {
+      "value": 14.2751307984619,
+      "raw_value": 14.2751307984619,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-01-01": {
+      "value": 15.6353852699611,
+      "raw_value": 15.6353852699611,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-02-01": {
+      "value": 13.3987526866626,
+      "raw_value": 13.3987526866626,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-03-01": {
+      "value": 15.0132809779738,
+      "raw_value": 15.0132809779738,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-04-01": {
+      "value": 14.7283919959753,
+      "raw_value": 14.7283919959753,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-05-01": {
+      "value": 16.4061265287082,
+      "raw_value": 16.4061265287082,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-06-01": {
+      "value": 15.9759730044186,
+      "raw_value": 15.9759730044186,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-07-01": {
+      "value": 16.7529225052124,
+      "raw_value": 16.7529225052124,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-08-01": {
+      "value": 14.9852998648797,
+      "raw_value": 14.9852998648797,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-09-01": {
+      "value": 13.8535341478486,
+      "raw_value": 13.8535341478486,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-10-01": {
+      "value": 16.97827811771,
+      "raw_value": 16.97827811771,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-11-01": {
+      "value": 17.0697239883675,
+      "raw_value": 17.0697239883675,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-12-01": {
+      "value": 16.4427039737717,
+      "raw_value": 16.4427039737717,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-01-01": {
+      "value": 16.5491837418614,
+      "raw_value": 16.5491837418614,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-02-01": {
+      "value": 15.4280106504532,
+      "raw_value": 15.4280106504532,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-03-01": {
+      "value": 17.0994504511962,
+      "raw_value": 17.0994504511962,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-04-01": {
+      "value": 16.2914299615873,
+      "raw_value": 16.2914299615873,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-05-01": {
+      "value": 16.297003250846924,
+      "raw_value": 16.297003250846924,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-06-01": {
+      "value": 13.807020330404029,
+      "raw_value": 13.807020330404029,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-07-01": {
+      "value": 16.79200962463023,
+      "raw_value": 16.79200962463023,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-08-01": {
+      "value": 17.724179104429975,
+      "raw_value": 17.724179104429975,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-09-01": {
+      "value": 15.935967383907794,
+      "raw_value": 15.935967383907794,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-10-01": {
+      "value": 16.604359799999997,
+      "raw_value": 16.604359799999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-11-01": {
+      "value": 16.2672912525,
+      "raw_value": 16.2672912525,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-12-01": {
+      "value": 16.345447545000003,
+      "raw_value": 16.345447545000003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-01-01": {
+      "value": 16.595113693290735,
+      "raw_value": 16.595113693290735,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-02-01": {
+      "value": 15.292592415012532,
+      "raw_value": 15.292592415012532,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-03-01": {
+      "value": 17.288011604317806,
+      "raw_value": 17.288011604317806,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-04-01": {
+      "value": 16.73033381063014,
+      "raw_value": 16.73033381063014,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-05-01": {
+      "value": 17.82350834210074,
+      "raw_value": 17.82350834210074,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-06-01": {
+      "value": 16.990249661379586,
+      "raw_value": 16.990249661379586,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-07-01": {
+      "value": 18.333119364708235,
+      "raw_value": 18.333119364708235,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-08-01": {
+      "value": 17.640140104519165,
+      "raw_value": 17.640140104519165,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-09-01": {
+      "value": 17.093837613389802,
+      "raw_value": 17.093837613389802,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-10-01": {
+      "value": 17.492857760470862,
+      "raw_value": 17.492857760470862,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-11-01": {
+      "value": 16.928572026262128,
+      "raw_value": 16.928572026262128,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-12-01": {
+      "value": 17.585224972418526,
+      "raw_value": 17.585224972418526,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-01-01": {
+      "value": 17.728160722164308,
+      "raw_value": 17.728160722164308,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-02-01": {
+      "value": 18.123531552906904,
+      "raw_value": 18.123531552906904,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-03-01": {
+      "value": 17.904869839945167,
+      "raw_value": 17.904869839945167,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-04-01": {
+      "value": 19.498423639151447,
+      "raw_value": 19.498423639151447,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-05-01": {
+      "value": 18.126700598697393,
+      "raw_value": 18.126700598697393,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-06-01": {
+      "value": 19.160317929239557,
+      "raw_value": 19.160317929239557,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-07-01": {
+      "value": 19.3113556569003,
+      "raw_value": 19.3113556569003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-08-01": {
+      "value": 18.14208368977642,
+      "raw_value": 18.14208368977642,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-09-01": {
+      "value": 17.99218465720141,
+      "raw_value": 17.99218465720141,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-10-01": {
+      "value": 19.04246693955472,
+      "raw_value": 19.04246693955472,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-11-01": {
+      "value": 18.61370911948171,
+      "raw_value": 18.61370911948171,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-12-01": {
+      "value": 17.55049771619901,
+      "raw_value": 17.55049771619901,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-01-01": {
+      "value": 18.89783243699776,
+      "raw_value": 18.89783243699776,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-02-01": {
+      "value": 17.522089715842675,
+      "raw_value": 17.522089715842675,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-03-01": {
+      "value": 18.499075465417846,
+      "raw_value": 18.499075465417846,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-04-01": {
+      "value": 18.499348947401582,
+      "raw_value": 18.499348947401582,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-05-01": {
+      "value": 19.14871380626556,
+      "raw_value": 19.14871380626556,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-06-01": {
+      "value": 18.785530112742915,
+      "raw_value": 18.785530112742915,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-07-01": {
+      "value": 20.158882808746757,
+      "raw_value": 20.158882808746757,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-08-01": {
+      "value": 20.158882808746757,
+      "raw_value": 20.158882808746757,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-09-01": {
+      "value": 20.082260253951162,
+      "raw_value": 20.082260253951162,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-10-01": {
+      "value": 21.54345199,
+      "raw_value": 21.54345199,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-11-01": {
+      "value": 18.637081804786295,
+      "raw_value": 18.637081804786295,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-12-01": {
+      "value": 20.382043005557804,
+      "raw_value": 20.382043005557804,
+      "imputed": false,
+      "outlier": false
+    },
+    "2026-01-01": {
+      "value": 19.655102308294616,
+      "raw_value": 19.655102308294616,
+      "imputed": false,
+      "outlier": false
+    }
+  },
+  "ventes_locales": {
+    "2006-01-01": {
+      "value": 231.2011,
+      "raw_value": 231.2011,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-02-01": {
+      "value": 231.8623,
+      "raw_value": 231.8623,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-03-01": {
+      "value": 260.0392,
+      "raw_value": 260.0392,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-04-01": {
+      "value": 275.1672,
+      "raw_value": 275.1672,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-05-01": {
+      "value": 293.02660000000003,
+      "raw_value": 293.02660000000003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-06-01": {
+      "value": 254.3188,
+      "raw_value": 254.3188,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-07-01": {
+      "value": 234.51369999999997,
+      "raw_value": 234.51369999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-08-01": {
+      "value": 246.2651,
+      "raw_value": 246.2651,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-09-01": {
+      "value": 217.473,
+      "raw_value": 217.473,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-10-01": {
+      "value": 199.9087,
+      "raw_value": 199.9087,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-11-01": {
+      "value": 224.16250000000002,
+      "raw_value": 224.16250000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-12-01": {
+      "value": 265.844,
+      "raw_value": 265.844,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-01-01": {
+      "value": 250.8157,
+      "raw_value": 250.8157,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-02-01": {
+      "value": 238.53769999999997,
+      "raw_value": 238.53769999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-03-01": {
+      "value": 236.953,
+      "raw_value": 236.953,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-04-01": {
+      "value": 271.1632,
+      "raw_value": 271.1632,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-05-01": {
+      "value": 251.9396,
+      "raw_value": 251.9396,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-06-01": {
+      "value": 241.48250000000002,
+      "raw_value": 241.48250000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-07-01": {
+      "value": 265.6474,
+      "raw_value": 265.6474,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-08-01": {
+      "value": 278.82234,
+      "raw_value": 278.82234,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-09-01": {
+      "value": 251.82299999999998,
+      "raw_value": 251.82299999999998,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-10-01": {
+      "value": 232.9423,
+      "raw_value": 232.9423,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-11-01": {
+      "value": 265.5299,
+      "raw_value": 265.5299,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-12-01": {
+      "value": 254.91909,
+      "raw_value": 254.91909,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-01-01": {
+      "value": 264.0387,
+      "raw_value": 264.0387,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-02-01": {
+      "value": 266.3953,
+      "raw_value": 266.3953,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-03-01": {
+      "value": 247.04656,
+      "raw_value": 247.04656,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-04-01": {
+      "value": 270.77819999999997,
+      "raw_value": 270.77819999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-05-01": {
+      "value": 276.0326,
+      "raw_value": 276.0326,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-06-01": {
+      "value": 278.1443,
+      "raw_value": 278.1443,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-07-01": {
+      "value": 278.17769,
+      "raw_value": 278.17769,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-08-01": {
+      "value": 255.3024,
+      "raw_value": 255.3024,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-09-01": {
+      "value": 233.02801,
+      "raw_value": 233.02801,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-10-01": {
+      "value": 232.54829999999998,
+      "raw_value": 232.54829999999998,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-11-01": {
+      "value": 266.3637,
+      "raw_value": 266.3637,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-12-01": {
+      "value": 216.8551,
+      "raw_value": 216.8551,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-01-01": {
+      "value": 269.9633,
+      "raw_value": 269.9633,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-02-01": {
+      "value": 268.3642,
+      "raw_value": 268.3642,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-03-01": {
+      "value": 301.5731,
+      "raw_value": 301.5731,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-04-01": {
+      "value": 297.2,
+      "raw_value": 297.2,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-05-01": {
+      "value": 287.6195,
+      "raw_value": 287.6195,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-06-01": {
+      "value": 291.172,
+      "raw_value": 291.172,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-07-01": {
+      "value": 307.3069,
+      "raw_value": 307.3069,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-08-01": {
+      "value": 256.2165,
+      "raw_value": 256.2165,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-09-01": {
+      "value": 188.52429999999998,
+      "raw_value": 188.52429999999998,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-10-01": {
+      "value": 275.8737,
+      "raw_value": 275.8737,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-11-01": {
+      "value": 242.8402,
+      "raw_value": 242.8402,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-12-01": {
+      "value": 324.9247,
+      "raw_value": 324.9247,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-01-01": {
+      "value": 355.491,
+      "raw_value": 355.491,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-02-01": {
+      "value": 303.85220000000004,
+      "raw_value": 303.85220000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-03-01": {
+      "value": 370.416,
+      "raw_value": 370.416,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-04-01": {
+      "value": 389.7902,
+      "raw_value": 389.7902,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-05-01": {
+      "value": 391.9685,
+      "raw_value": 391.9685,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-06-01": {
+      "value": 385.4658,
+      "raw_value": 385.4658,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-07-01": {
+      "value": 369.80870000000004,
+      "raw_value": 369.80870000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-08-01": {
+      "value": 310.202,
+      "raw_value": 310.202,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-09-01": {
+      "value": 229.2484,
+      "raw_value": 229.2484,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-10-01": {
+      "value": 336.4086,
+      "raw_value": 336.4086,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-11-01": {
+      "value": 275.8424,
+      "raw_value": 275.8424,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-12-01": {
+      "value": 358.2675,
+      "raw_value": 358.2675,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-01-01": {
+      "value": 402.94759999999997,
+      "raw_value": 402.94759999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-02-01": {
+      "value": 384.9741,
+      "raw_value": 384.9741,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-03-01": {
+      "value": 458.4643,
+      "raw_value": 458.4643,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-04-01": {
+      "value": 418.394,
+      "raw_value": 418.394,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-05-01": {
+      "value": 466.82820000000004,
+      "raw_value": 466.82820000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-06-01": {
+      "value": 432.62,
+      "raw_value": 432.62,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-07-01": {
+      "value": 423.55719999999997,
+      "raw_value": 423.55719999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-08-01": {
+      "value": 341.805,
+      "raw_value": 341.805,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-09-01": {
+      "value": 330.30809999999997,
+      "raw_value": 330.30809999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-10-01": {
+      "value": 351.1944,
+      "raw_value": 351.1944,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-11-01": {
+      "value": 300.61220000000003,
+      "raw_value": 300.61220000000003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-12-01": {
+      "value": 408.6255,
+      "raw_value": 408.6255,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-01-01": {
+      "value": 449.93600000000004,
+      "raw_value": 449.93600000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-02-01": {
+      "value": 426.4512,
+      "raw_value": 426.4512,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-03-01": {
+      "value": 453.95349999999996,
+      "raw_value": 453.95349999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-04-01": {
+      "value": 425.5633,
+      "raw_value": 425.5633,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-05-01": {
+      "value": 435.0901,
+      "raw_value": 435.0901,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-06-01": {
+      "value": 420.6825,
+      "raw_value": 420.6825,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-07-01": {
+      "value": 388.6463,
+      "raw_value": 388.6463,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-08-01": {
+      "value": 303.0407,
+      "raw_value": 303.0407,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-09-01": {
+      "value": 340.8992,
+      "raw_value": 340.8992,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-10-01": {
+      "value": 336.913,
+      "raw_value": 336.913,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-11-01": {
+      "value": 362.275,
+      "raw_value": 362.275,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-12-01": {
+      "value": 379.6098,
+      "raw_value": 379.6098,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-01-01": {
+      "value": 391.05535,
+      "raw_value": 391.05535,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-02-01": {
+      "value": 375.51526,
+      "raw_value": 375.51526,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-03-01": {
+      "value": 447.37594,
+      "raw_value": 447.37594,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-04-01": {
+      "value": 390.27328,
+      "raw_value": 390.27328,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-05-01": {
+      "value": 435.37451999999996,
+      "raw_value": 435.37451999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-06-01": {
+      "value": 437.0932,
+      "raw_value": 437.0932,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-07-01": {
+      "value": 409.91152,
+      "raw_value": 409.91152,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-08-01": {
+      "value": 313.14526,
+      "raw_value": 313.14526,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-09-01": {
+      "value": 319.501,
+      "raw_value": 319.501,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-10-01": {
+      "value": 275.47614,
+      "raw_value": 275.47614,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-11-01": {
+      "value": 371.96113,
+      "raw_value": 371.96113,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-12-01": {
+      "value": 381.85736999999995,
+      "raw_value": 381.85736999999995,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-01-01": {
+      "value": 431.54497,
+      "raw_value": 431.54497,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-02-01": {
+      "value": 409.01076,
+      "raw_value": 409.01076,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-03-01": {
+      "value": 466.27831,
+      "raw_value": 466.27831,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-04-01": {
+      "value": 445.52092000000005,
+      "raw_value": 445.52092000000005,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-05-01": {
+      "value": 478.48974,
+      "raw_value": 478.48974,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-06-01": {
+      "value": 438.30987,
+      "raw_value": 438.30987,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-07-01": {
+      "value": 378.40054000000003,
+      "raw_value": 378.40054000000003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-08-01": {
+      "value": 309.99271,
+      "raw_value": 309.99271,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-09-01": {
+      "value": 454.39259999999996,
+      "raw_value": 454.39259999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-10-01": {
+      "value": 327.995763,
+      "raw_value": 327.995763,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-11-01": {
+      "value": 385.78229999999996,
+      "raw_value": 385.78229999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-12-01": {
+      "value": 413.51014000000004,
+      "raw_value": 413.51014000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-01-01": {
+      "value": 452.99295,
+      "raw_value": 452.99295,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-02-01": {
+      "value": 491.46752000000004,
+      "raw_value": 491.46752000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-03-01": {
+      "value": 537.44368,
+      "raw_value": 537.44368,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-04-01": {
+      "value": 525.26242,
+      "raw_value": 525.26242,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-05-01": {
+      "value": 530.13026,
+      "raw_value": 530.13026,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-06-01": {
+      "value": 532.00905,
+      "raw_value": 532.00905,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-07-01": {
+      "value": 439.16796999999997,
+      "raw_value": 439.16796999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-08-01": {
+      "value": 401.02471,
+      "raw_value": 401.02471,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-09-01": {
+      "value": 368.54564,
+      "raw_value": 368.54564,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-10-01": {
+      "value": 400.87851,
+      "raw_value": 400.87851,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-11-01": {
+      "value": 432.66352,
+      "raw_value": 432.66352,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-12-01": {
+      "value": 465.23016,
+      "raw_value": 465.23016,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-01-01": {
+      "value": 531.246,
+      "raw_value": 531.246,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-02-01": {
+      "value": 534.3741,
+      "raw_value": 534.3741,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-03-01": {
+      "value": 552.68522,
+      "raw_value": 552.68522,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-04-01": {
+      "value": 590.9895,
+      "raw_value": 590.9895,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-05-01": {
+      "value": 549.37936,
+      "raw_value": 549.37936,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-06-01": {
+      "value": 514.02613,
+      "raw_value": 514.02613,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-07-01": {
+      "value": 494.14311,
+      "raw_value": 494.14311,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-08-01": {
+      "value": 551.179,
+      "raw_value": 551.179,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-09-01": {
+      "value": 374.4469,
+      "raw_value": 374.4469,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-10-01": {
+      "value": 462.11672,
+      "raw_value": 462.11672,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-11-01": {
+      "value": 490.22615,
+      "raw_value": 490.22615,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-12-01": {
+      "value": 536.37137,
+      "raw_value": 536.37137,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-01-01": {
+      "value": 554.4096999999999,
+      "raw_value": 554.4096999999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-02-01": {
+      "value": 570.3428,
+      "raw_value": 570.3428,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-03-01": {
+      "value": 609.76173,
+      "raw_value": 609.76173,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-04-01": {
+      "value": 531.0780100000001,
+      "raw_value": 531.0780100000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-05-01": {
+      "value": 601.00031,
+      "raw_value": 601.00031,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-06-01": {
+      "value": 533.91761,
+      "raw_value": 533.91761,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-07-01": {
+      "value": 544.38983,
+      "raw_value": 544.38983,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-08-01": {
+      "value": 518.53493,
+      "raw_value": 518.53493,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-09-01": {
+      "value": 410.08699,
+      "raw_value": 410.08699,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-10-01": {
+      "value": 533.7781,
+      "raw_value": 533.7781,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-11-01": {
+      "value": 491.19683999999995,
+      "raw_value": 491.19683999999995,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-12-01": {
+      "value": 542.58852,
+      "raw_value": 542.58852,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-01-01": {
+      "value": 601.73549,
+      "raw_value": 601.73549,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-02-01": {
+      "value": 574.4732700000001,
+      "raw_value": 574.4732700000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-03-01": {
+      "value": 655.7426700000001,
+      "raw_value": 655.7426700000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-04-01": {
+      "value": 596.36788,
+      "raw_value": 596.36788,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-05-01": {
+      "value": 562.72222,
+      "raw_value": 562.72222,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-06-01": {
+      "value": 555.01522,
+      "raw_value": 555.01522,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-07-01": {
+      "value": 587.3078200000001,
+      "raw_value": 587.3078200000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-08-01": {
+      "value": 502.44973999999996,
+      "raw_value": 502.44973999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-09-01": {
+      "value": 450.27297000000004,
+      "raw_value": 450.27297000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-10-01": {
+      "value": 526.36288,
+      "raw_value": 526.36288,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-11-01": {
+      "value": 553.6132,
+      "raw_value": 553.6132,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-12-01": {
+      "value": 616.42968,
+      "raw_value": 616.42968,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-01-01": {
+      "value": 646.0183499999999,
+      "raw_value": 646.0183499999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-02-01": {
+      "value": 559.47708,
+      "raw_value": 559.47708,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-03-01": {
+      "value": 590.74388,
+      "raw_value": 590.74388,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-04-01": {
+      "value": 566.9266899999999,
+      "raw_value": 566.9266899999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-05-01": {
+      "value": 594.71861,
+      "raw_value": 594.71861,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-06-01": {
+      "value": 588.1465999999999,
+      "raw_value": 588.1465999999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-07-01": {
+      "value": 608.79216,
+      "raw_value": 608.79216,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-08-01": {
+      "value": 526.31737,
+      "raw_value": 526.31737,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-09-01": {
+      "value": 424.05409,
+      "raw_value": 424.05409,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-10-01": {
+      "value": 505.59114,
+      "raw_value": 505.59114,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-11-01": {
+      "value": 527.62201,
+      "raw_value": 527.62201,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-12-01": {
+      "value": 636.6011699999999,
+      "raw_value": 636.6011699999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-01-01": {
+      "value": 645.61718,
+      "raw_value": 645.61718,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-02-01": {
+      "value": 602.14462,
+      "raw_value": 602.14462,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-03-01": {
+      "value": 544.98387,
+      "raw_value": 544.98387,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-04-01": {
+      "value": 570.1165,
+      "raw_value": 570.1165,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-05-01": {
+      "value": 550.58183,
+      "raw_value": 550.58183,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-06-01": {
+      "value": 647.49274,
+      "raw_value": 647.49274,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-07-01": {
+      "value": 612.48978,
+      "raw_value": 612.48978,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-08-01": {
+      "value": 479.30475,
+      "raw_value": 479.30475,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-09-01": {
+      "value": 566.69624,
+      "raw_value": 566.69624,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-10-01": {
+      "value": 585.49862,
+      "raw_value": 585.49862,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-11-01": {
+      "value": 590.0976400000001,
+      "raw_value": 590.0976400000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-12-01": {
+      "value": 642.50335,
+      "raw_value": 642.50335,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-01-01": {
+      "value": 664.19577,
+      "raw_value": 664.19577,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-02-01": {
+      "value": 620.9233,
+      "raw_value": 620.9233,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-03-01": {
+      "value": 764.85015,
+      "raw_value": 764.85015,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-04-01": {
+      "value": 689.02568,
+      "raw_value": 689.02568,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-05-01": {
+      "value": 714.15919,
+      "raw_value": 714.15919,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-06-01": {
+      "value": 633.73838,
+      "raw_value": 633.73838,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-07-01": {
+      "value": 675.28867,
+      "raw_value": 675.28867,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-08-01": {
+      "value": 599.71068,
+      "raw_value": 599.71068,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-09-01": {
+      "value": 588.75453,
+      "raw_value": 588.75453,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-10-01": {
+      "value": 653.37877,
+      "raw_value": 653.37877,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-11-01": {
+      "value": 712.41755,
+      "raw_value": 712.41755,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-12-01": {
+      "value": 731.8043,
+      "raw_value": 731.8043,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-01-01": {
+      "value": 722.9941799999999,
+      "raw_value": 722.9941799999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-02-01": {
+      "value": 616.8634700000001,
+      "raw_value": 616.8634700000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-03-01": {
+      "value": 725.54438,
+      "raw_value": 725.54438,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-04-01": {
+      "value": 667.16797,
+      "raw_value": 667.16797,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-05-01": {
+      "value": 646.64035,
+      "raw_value": 646.64035,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-06-01": {
+      "value": 635.77002,
+      "raw_value": 635.77002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-07-01": {
+      "value": 613.0523499999999,
+      "raw_value": 613.0523499999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-08-01": {
+      "value": 616.2118,
+      "raw_value": 616.2118,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-09-01": {
+      "value": 547.4949499999999,
+      "raw_value": 547.4949499999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-10-01": {
+      "value": 665.55561,
+      "raw_value": 665.55561,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-11-01": {
+      "value": 682.205,
+      "raw_value": 682.205,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-12-01": {
+      "value": 850.60473,
+      "raw_value": 850.60473,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-01-01": {
+      "value": 803.19163,
+      "raw_value": 803.19163,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-02-01": {
+      "value": 793.84303,
+      "raw_value": 793.84303,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-03-01": {
+      "value": 849.56798,
+      "raw_value": 849.56798,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-04-01": {
+      "value": 693.52755,
+      "raw_value": 693.52755,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-05-01": {
+      "value": 840.63111,
+      "raw_value": 840.63111,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-06-01": {
+      "value": 781.0020900000001,
+      "raw_value": 781.0020900000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-07-01": {
+      "value": 711.00112,
+      "raw_value": 711.00112,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-08-01": {
+      "value": 738.93419,
+      "raw_value": 738.93419,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-09-01": {
+      "value": 534.29684,
+      "raw_value": 534.29684,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-10-01": {
+      "value": 641.5686000000001,
+      "raw_value": 641.5686000000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-11-01": {
+      "value": 782.33223,
+      "raw_value": 782.33223,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-12-01": {
+      "value": 847.3269200000001,
+      "raw_value": 847.3269200000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-01-01": {
+      "value": 889.91124,
+      "raw_value": 889.91124,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-02-01": {
+      "value": 834.484354,
+      "raw_value": 834.484354,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-03-01": {
+      "value": 848.112307,
+      "raw_value": 848.112307,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-04-01": {
+      "value": 702.8120819999999,
+      "raw_value": 702.8120819999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-05-01": {
+      "value": 899.003748,
+      "raw_value": 899.003748,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-06-01": {
+      "value": 699.45599,
+      "raw_value": 699.45599,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-07-01": {
+      "value": 823.176763,
+      "raw_value": 823.176763,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-08-01": {
+      "value": 646.9730700000001,
+      "raw_value": 646.9730700000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-09-01": {
+      "value": 613.37425,
+      "raw_value": 613.37425,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-10-01": {
+      "value": 618.1665499999999,
+      "raw_value": 618.1665499999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-11-01": {
+      "value": 663.0221799999999,
+      "raw_value": 663.0221799999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-12-01": {
+      "value": 767.90184,
+      "raw_value": 767.90184,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-01-01": {
+      "value": 820.86931,
+      "raw_value": 820.86931,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-02-01": {
+      "value": 782.95668,
+      "raw_value": 782.95668,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-03-01": {
+      "value": 730.68261,
+      "raw_value": 730.68261,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-04-01": {
+      "value": 775.1370700000001,
+      "raw_value": 775.1370700000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-05-01": {
+      "value": 867.1741000000001,
+      "raw_value": 867.1741000000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-06-01": {
+      "value": 738.2849573120403,
+      "raw_value": 738.2849573120403,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-07-01": {
+      "value": 835.340589324,
+      "raw_value": 835.340589324,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-08-01": {
+      "value": 718.0841722739597,
+      "raw_value": 718.0841722739597,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-09-01": {
+      "value": 622.5059434609999,
+      "raw_value": 622.5059434609999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-10-01": {
+      "value": 694.8558845645649,
+      "raw_value": 694.8558845645649,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-11-01": {
+      "value": 697.2000411611951,
+      "raw_value": 697.2000411611951,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-12-01": {
+      "value": 963.923161081285,
+      "raw_value": 963.923161081285,
+      "imputed": false,
+      "outlier": false
+    },
+    "2026-01-01": {
+      "value": 916.7408585819752,
+      "raw_value": 916.7408585819752,
+      "imputed": false,
+      "outlier": false
+    }
+  },
+  "exportations": {
+    "2006-01-01": {
+      "value": 116.71090000000001,
+      "raw_value": 116.71090000000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-02-01": {
+      "value": 180.0893,
+      "raw_value": 180.0893,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-03-01": {
+      "value": 201.5403,
+      "raw_value": 201.5403,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-04-01": {
+      "value": 199.3307,
+      "raw_value": 199.3307,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-05-01": {
+      "value": 222.1759,
+      "raw_value": 222.1759,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-06-01": {
+      "value": 192.5267,
+      "raw_value": 192.5267,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-07-01": {
+      "value": 178.3801,
+      "raw_value": 178.3801,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-08-01": {
+      "value": 196.5587,
+      "raw_value": 196.5587,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-09-01": {
+      "value": 154.1617,
+      "raw_value": 154.1617,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-10-01": {
+      "value": 136.3342,
+      "raw_value": 136.3342,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-11-01": {
+      "value": 162.8435,
+      "raw_value": 162.8435,
+      "imputed": false,
+      "outlier": false
+    },
+    "2006-12-01": {
+      "value": 190.671,
+      "raw_value": 190.671,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-01-01": {
+      "value": 191.7919,
+      "raw_value": 191.7919,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-02-01": {
+      "value": 173.28699999999998,
+      "raw_value": 173.28699999999998,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-03-01": {
+      "value": 182.79070000000002,
+      "raw_value": 182.79070000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-04-01": {
+      "value": 196.5025,
+      "raw_value": 196.5025,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-05-01": {
+      "value": 195.06959999999998,
+      "raw_value": 195.06959999999998,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-06-01": {
+      "value": 196.20069999999998,
+      "raw_value": 196.20069999999998,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-07-01": {
+      "value": 209.476,
+      "raw_value": 209.476,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-08-01": {
+      "value": 203.19362,
+      "raw_value": 203.19362,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-09-01": {
+      "value": 180.376,
+      "raw_value": 180.376,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-10-01": {
+      "value": 170.1346,
+      "raw_value": 170.1346,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-11-01": {
+      "value": 191.64049999999997,
+      "raw_value": 191.64049999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2007-12-01": {
+      "value": 171.47544,
+      "raw_value": 171.47544,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-01-01": {
+      "value": 200.51051999999999,
+      "raw_value": 200.51051999999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-02-01": {
+      "value": 192.98607000000004,
+      "raw_value": 192.98607000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-03-01": {
+      "value": 191.48844,
+      "raw_value": 191.48844,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-04-01": {
+      "value": 220.60179999999997,
+      "raw_value": 220.60179999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-05-01": {
+      "value": 215.68370000000002,
+      "raw_value": 215.68370000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-06-01": {
+      "value": 204.83870000000002,
+      "raw_value": 204.83870000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-07-01": {
+      "value": 207.28895,
+      "raw_value": 207.28895,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-08-01": {
+      "value": 175.3314,
+      "raw_value": 175.3314,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-09-01": {
+      "value": 145.84386,
+      "raw_value": 145.84386,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-10-01": {
+      "value": 155.1122,
+      "raw_value": 155.1122,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-11-01": {
+      "value": 181.53750000000002,
+      "raw_value": 181.53750000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2008-12-01": {
+      "value": 163.6202,
+      "raw_value": 163.6202,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-01-01": {
+      "value": 192.8531,
+      "raw_value": 192.8531,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-02-01": {
+      "value": 181.5657,
+      "raw_value": 181.5657,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-03-01": {
+      "value": 201.3075,
+      "raw_value": 201.3075,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-04-01": {
+      "value": 207.75049,
+      "raw_value": 207.75049,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-05-01": {
+      "value": 198.9654,
+      "raw_value": 198.9654,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-06-01": {
+      "value": 210.0895,
+      "raw_value": 210.0895,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-07-01": {
+      "value": 219.3305,
+      "raw_value": 219.3305,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-08-01": {
+      "value": 168.82296,
+      "raw_value": 168.82296,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-09-01": {
+      "value": 129.4854,
+      "raw_value": 129.4854,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-10-01": {
+      "value": 186.6297,
+      "raw_value": 186.6297,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-11-01": {
+      "value": 156.7361,
+      "raw_value": 156.7361,
+      "imputed": false,
+      "outlier": false
+    },
+    "2009-12-01": {
+      "value": 209.5489,
+      "raw_value": 209.5489,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-01-01": {
+      "value": 214.0947,
+      "raw_value": 214.0947,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-02-01": {
+      "value": 188.889,
+      "raw_value": 188.889,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-03-01": {
+      "value": 234.4961,
+      "raw_value": 234.4961,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-04-01": {
+      "value": 229.0602,
+      "raw_value": 229.0602,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-05-01": {
+      "value": 235.2638,
+      "raw_value": 235.2638,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-06-01": {
+      "value": 233.68980000000002,
+      "raw_value": 233.68980000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-07-01": {
+      "value": 204.115,
+      "raw_value": 204.115,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-08-01": {
+      "value": 171.5718,
+      "raw_value": 171.5718,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-09-01": {
+      "value": 143.01,
+      "raw_value": 143.01,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-10-01": {
+      "value": 176.8279,
+      "raw_value": 176.8279,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-11-01": {
+      "value": 153.435,
+      "raw_value": 153.435,
+      "imputed": false,
+      "outlier": false
+    },
+    "2010-12-01": {
+      "value": 210.8078,
+      "raw_value": 210.8078,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-01-01": {
+      "value": 209.71730000000002,
+      "raw_value": 209.71730000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-02-01": {
+      "value": 214.45589999999999,
+      "raw_value": 214.45589999999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-03-01": {
+      "value": 261.7112,
+      "raw_value": 261.7112,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-04-01": {
+      "value": 238.9296,
+      "raw_value": 238.9296,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-05-01": {
+      "value": 250.44280000000003,
+      "raw_value": 250.44280000000003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-06-01": {
+      "value": 232.10340000000002,
+      "raw_value": 232.10340000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-07-01": {
+      "value": 227.90929999999997,
+      "raw_value": 227.90929999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-08-01": {
+      "value": 179.18630000000002,
+      "raw_value": 179.18630000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-09-01": {
+      "value": 176.2937,
+      "raw_value": 176.2937,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-10-01": {
+      "value": 176.0151,
+      "raw_value": 176.0151,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-11-01": {
+      "value": 176.0822,
+      "raw_value": 176.0822,
+      "imputed": false,
+      "outlier": false
+    },
+    "2011-12-01": {
+      "value": 226.81730000000002,
+      "raw_value": 226.81730000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-01-01": {
+      "value": 217.9707,
+      "raw_value": 217.9707,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-02-01": {
+      "value": 217.9658,
+      "raw_value": 217.9658,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-03-01": {
+      "value": 248.23489999999998,
+      "raw_value": 248.23489999999998,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-04-01": {
+      "value": 234.4649,
+      "raw_value": 234.4649,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-05-01": {
+      "value": 246.4565,
+      "raw_value": 246.4565,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-06-01": {
+      "value": 242.5924,
+      "raw_value": 242.5924,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-07-01": {
+      "value": 215.1315,
+      "raw_value": 215.1315,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-08-01": {
+      "value": 158.59730000000002,
+      "raw_value": 158.59730000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-09-01": {
+      "value": 176.5884,
+      "raw_value": 176.5884,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-10-01": {
+      "value": 159.3308,
+      "raw_value": 159.3308,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-11-01": {
+      "value": 193.1096,
+      "raw_value": 193.1096,
+      "imputed": false,
+      "outlier": false
+    },
+    "2012-12-01": {
+      "value": 209.03300000000002,
+      "raw_value": 209.03300000000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-01-01": {
+      "value": 226.05534,
+      "raw_value": 226.05534,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-02-01": {
+      "value": 233.38113,
+      "raw_value": 233.38113,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-03-01": {
+      "value": 267.93529,
+      "raw_value": 267.93529,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-04-01": {
+      "value": 257.83893,
+      "raw_value": 257.83893,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-05-01": {
+      "value": 282.93157,
+      "raw_value": 282.93157,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-06-01": {
+      "value": 263.50875,
+      "raw_value": 263.50875,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-07-01": {
+      "value": 253.08286000000004,
+      "raw_value": 253.08286000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-08-01": {
+      "value": 184.13143,
+      "raw_value": 184.13143,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-09-01": {
+      "value": 184.82816999999997,
+      "raw_value": 184.82816999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-10-01": {
+      "value": 168.49171,
+      "raw_value": 168.49171,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-11-01": {
+      "value": 226.18159000000003,
+      "raw_value": 226.18159000000003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2013-12-01": {
+      "value": 231.35323999999997,
+      "raw_value": 231.35323999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-01-01": {
+      "value": 267.52602,
+      "raw_value": 267.52602,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-02-01": {
+      "value": 268.28011,
+      "raw_value": 268.28011,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-03-01": {
+      "value": 295.70696000000004,
+      "raw_value": 295.70696000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-04-01": {
+      "value": 291.44131,
+      "raw_value": 291.44131,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-05-01": {
+      "value": 299.63269,
+      "raw_value": 299.63269,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-06-01": {
+      "value": 278.27772,
+      "raw_value": 278.27772,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-07-01": {
+      "value": 240.31760999999997,
+      "raw_value": 240.31760999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-08-01": {
+      "value": 204.08261,
+      "raw_value": 204.08261,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-09-01": {
+      "value": 263.602,
+      "raw_value": 263.602,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-10-01": {
+      "value": 214.41771000000003,
+      "raw_value": 214.41771000000003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-11-01": {
+      "value": 229.50045,
+      "raw_value": 229.50045,
+      "imputed": false,
+      "outlier": false
+    },
+    "2014-12-01": {
+      "value": 261.77767,
+      "raw_value": 261.77767,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-01-01": {
+      "value": 290.58652,
+      "raw_value": 290.58652,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-02-01": {
+      "value": 283.83311,
+      "raw_value": 283.83311,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-03-01": {
+      "value": 321.36147,
+      "raw_value": 321.36147,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-04-01": {
+      "value": 308.54149,
+      "raw_value": 308.54149,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-05-01": {
+      "value": 301.84371000000004,
+      "raw_value": 301.84371000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-06-01": {
+      "value": 314.80468,
+      "raw_value": 314.80468,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-07-01": {
+      "value": 255.8441,
+      "raw_value": 255.8441,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-08-01": {
+      "value": 253.46135999999998,
+      "raw_value": 253.46135999999998,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-09-01": {
+      "value": 197.3783,
+      "raw_value": 197.3783,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-10-01": {
+      "value": 255.27232,
+      "raw_value": 255.27232,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-11-01": {
+      "value": 253.78332,
+      "raw_value": 253.78332,
+      "imputed": false,
+      "outlier": false
+    },
+    "2015-12-01": {
+      "value": 280.44961,
+      "raw_value": 280.44961,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-01-01": {
+      "value": 334.33315000000005,
+      "raw_value": 334.33315000000005,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-02-01": {
+      "value": 324.66358999999994,
+      "raw_value": 324.66358999999994,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-03-01": {
+      "value": 309.35606,
+      "raw_value": 309.35606,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-04-01": {
+      "value": 323.78294,
+      "raw_value": 323.78294,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-05-01": {
+      "value": 297.25681,
+      "raw_value": 297.25681,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-06-01": {
+      "value": 286.04623,
+      "raw_value": 286.04623,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-07-01": {
+      "value": 243.80126,
+      "raw_value": 243.80126,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-08-01": {
+      "value": 260.43691,
+      "raw_value": 260.43691,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-09-01": {
+      "value": 184.9272,
+      "raw_value": 184.9272,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-10-01": {
+      "value": 233.00532,
+      "raw_value": 233.00532,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-11-01": {
+      "value": 227.81063,
+      "raw_value": 227.81063,
+      "imputed": false,
+      "outlier": false
+    },
+    "2016-12-01": {
+      "value": 267.01031,
+      "raw_value": 267.01031,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-01-01": {
+      "value": 272.04118,
+      "raw_value": 272.04118,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-02-01": {
+      "value": 279.66148,
+      "raw_value": 279.66148,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-03-01": {
+      "value": 297.43103,
+      "raw_value": 297.43103,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-04-01": {
+      "value": 278.29024,
+      "raw_value": 278.29024,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-05-01": {
+      "value": 395.26208,
+      "raw_value": 395.26208,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-06-01": {
+      "value": 319.59014,
+      "raw_value": 319.59014,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-07-01": {
+      "value": 356.42359999999996,
+      "raw_value": 356.42359999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-08-01": {
+      "value": 334.07792,
+      "raw_value": 334.07792,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-09-01": {
+      "value": 280.38657,
+      "raw_value": 280.38657,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-10-01": {
+      "value": 349.59755,
+      "raw_value": 349.59755,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-11-01": {
+      "value": 316.65824,
+      "raw_value": 316.65824,
+      "imputed": false,
+      "outlier": false
+    },
+    "2017-12-01": {
+      "value": 383.08280999999994,
+      "raw_value": 383.08280999999994,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-01-01": {
+      "value": 419.57343,
+      "raw_value": 419.57343,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-02-01": {
+      "value": 400.54477,
+      "raw_value": 400.54477,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-03-01": {
+      "value": 458.34842,
+      "raw_value": 458.34842,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-04-01": {
+      "value": 410.36538,
+      "raw_value": 410.36538,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-05-01": {
+      "value": 422.73841999999996,
+      "raw_value": 422.73841999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-06-01": {
+      "value": 367.29362,
+      "raw_value": 367.29362,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-07-01": {
+      "value": 400.7924049999999,
+      "raw_value": 400.7924049999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-08-01": {
+      "value": 340.8186199999999,
+      "raw_value": 340.8186199999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-09-01": {
+      "value": 330.86868,
+      "raw_value": 330.86868,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-10-01": {
+      "value": 366.43245,
+      "raw_value": 366.43245,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-11-01": {
+      "value": 387.6622999999999,
+      "raw_value": 387.6622999999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2018-12-01": {
+      "value": 435.58481,
+      "raw_value": 435.58481,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-01-01": {
+      "value": 483.32746999999983,
+      "raw_value": 483.32746999999983,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-02-01": {
+      "value": 406.78168,
+      "raw_value": 406.78168,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-03-01": {
+      "value": 458.80632999999995,
+      "raw_value": 458.80632999999995,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-04-01": {
+      "value": 443.78429000000006,
+      "raw_value": 443.78429000000006,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-05-01": {
+      "value": 485.19731,
+      "raw_value": 485.19731,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-06-01": {
+      "value": 427.03434999999996,
+      "raw_value": 427.03434999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-07-01": {
+      "value": 460.07206,
+      "raw_value": 460.07206,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-08-01": {
+      "value": 382.35967000000005,
+      "raw_value": 382.35967000000005,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-09-01": {
+      "value": 287.22583999999995,
+      "raw_value": 287.22583999999995,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-10-01": {
+      "value": 365.713,
+      "raw_value": 365.713,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-11-01": {
+      "value": 398.12565,
+      "raw_value": 398.12565,
+      "imputed": false,
+      "outlier": false
+    },
+    "2019-12-01": {
+      "value": 470.99493,
+      "raw_value": 470.99493,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-01-01": {
+      "value": 511.46544,
+      "raw_value": 511.46544,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-02-01": {
+      "value": 462.03757,
+      "raw_value": 462.03757,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-03-01": {
+      "value": 459.62971999999996,
+      "raw_value": 459.62971999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-04-01": {
+      "value": 465.79153,
+      "raw_value": 465.79153,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-05-01": {
+      "value": 444.49825,
+      "raw_value": 444.49825,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-06-01": {
+      "value": 510.22821,
+      "raw_value": 510.22821,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-07-01": {
+      "value": 461.65363,
+      "raw_value": 461.65363,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-08-01": {
+      "value": 376.05973,
+      "raw_value": 376.05973,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-09-01": {
+      "value": 430.11992000000004,
+      "raw_value": 430.11992000000004,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-10-01": {
+      "value": 398.79647,
+      "raw_value": 398.79647,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-11-01": {
+      "value": 471.34091,
+      "raw_value": 471.34091,
+      "imputed": false,
+      "outlier": false
+    },
+    "2020-12-01": {
+      "value": 470.8486,
+      "raw_value": 470.8486,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-01-01": {
+      "value": 564.9434200000001,
+      "raw_value": 564.9434200000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-02-01": {
+      "value": 519.86614,
+      "raw_value": 519.86614,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-03-01": {
+      "value": 623.80001,
+      "raw_value": 623.80001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-04-01": {
+      "value": 575.4890300000001,
+      "raw_value": 575.4890300000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-05-01": {
+      "value": 551.5816600000002,
+      "raw_value": 551.5816600000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-06-01": {
+      "value": 520.73003,
+      "raw_value": 520.73003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-07-01": {
+      "value": 514.8743,
+      "raw_value": 514.8743,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-08-01": {
+      "value": 463.94506999999993,
+      "raw_value": 463.94506999999993,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-09-01": {
+      "value": 434.27411,
+      "raw_value": 434.27411,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-10-01": {
+      "value": 468.12962,
+      "raw_value": 468.12962,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-11-01": {
+      "value": 527.51489,
+      "raw_value": 527.51489,
+      "imputed": false,
+      "outlier": false
+    },
+    "2021-12-01": {
+      "value": 550.8679299999999,
+      "raw_value": 550.8679299999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-01-01": {
+      "value": 600.00972,
+      "raw_value": 600.00972,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-02-01": {
+      "value": 546.18254,
+      "raw_value": 546.18254,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-03-01": {
+      "value": 662.53503,
+      "raw_value": 662.53503,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-04-01": {
+      "value": 587.23215,
+      "raw_value": 587.23215,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-05-01": {
+      "value": 530.2764,
+      "raw_value": 530.2764,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-06-01": {
+      "value": 551.0114299999999,
+      "raw_value": 551.0114299999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-07-01": {
+      "value": 502.04653999999994,
+      "raw_value": 502.04653999999994,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-08-01": {
+      "value": 480.60407999999995,
+      "raw_value": 480.60407999999995,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-09-01": {
+      "value": 406.20572999999996,
+      "raw_value": 406.20572999999996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-10-01": {
+      "value": 480.81982,
+      "raw_value": 480.81982,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-11-01": {
+      "value": 507.23624,
+      "raw_value": 507.23624,
+      "imputed": false,
+      "outlier": false
+    },
+    "2022-12-01": {
+      "value": 605.87892,
+      "raw_value": 605.87892,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-01-01": {
+      "value": 645.26689,
+      "raw_value": 645.26689,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-02-01": {
+      "value": 609.56663,
+      "raw_value": 609.56663,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-03-01": {
+      "value": 674.30325,
+      "raw_value": 674.30325,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-04-01": {
+      "value": 525.1006600000001,
+      "raw_value": 525.1006600000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-05-01": {
+      "value": 670.73408,
+      "raw_value": 670.73408,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-06-01": {
+      "value": 597.9524299999999,
+      "raw_value": 597.9524299999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-07-01": {
+      "value": 573.1786000000001,
+      "raw_value": 573.1786000000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-08-01": {
+      "value": 583.1444559999999,
+      "raw_value": 583.1444559999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-09-01": {
+      "value": 409.28002,
+      "raw_value": 409.28002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-10-01": {
+      "value": 517.93568,
+      "raw_value": 517.93568,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-11-01": {
+      "value": 599.26644,
+      "raw_value": 599.26644,
+      "imputed": false,
+      "outlier": false
+    },
+    "2023-12-01": {
+      "value": 638.1026330000001,
+      "raw_value": 638.1026330000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-01-01": {
+      "value": 665.530355,
+      "raw_value": 665.530355,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-02-01": {
+      "value": 631.5791100000001,
+      "raw_value": 631.5791100000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-03-01": {
+      "value": 634.9542200000001,
+      "raw_value": 634.9542200000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-04-01": {
+      "value": 561.974737,
+      "raw_value": 561.974737,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-05-01": {
+      "value": 708.623392,
+      "raw_value": 708.623392,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-06-01": {
+      "value": 522.3592049999999,
+      "raw_value": 522.3592049999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-07-01": {
+      "value": 672.6508890000002,
+      "raw_value": 672.6508890000002,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-08-01": {
+      "value": 505.87122000000005,
+      "raw_value": 505.87122000000005,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-09-01": {
+      "value": 480.1669629999999,
+      "raw_value": 480.1669629999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-10-01": {
+      "value": 536.687456,
+      "raw_value": 536.687456,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-11-01": {
+      "value": 549.6001699999999,
+      "raw_value": 549.6001699999999,
+      "imputed": false,
+      "outlier": false
+    },
+    "2024-12-01": {
+      "value": 603.3761400000001,
+      "raw_value": 603.3761400000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-01-01": {
+      "value": 695.81418,
+      "raw_value": 695.81418,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-02-01": {
+      "value": 648.3851000000001,
+      "raw_value": 648.3851000000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-03-01": {
+      "value": 614.8440000000003,
+      "raw_value": 614.8440000000003,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-04-01": {
+      "value": 654.75374,
+      "raw_value": 654.75374,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-05-01": {
+      "value": 693.4889400000001,
+      "raw_value": 693.4889400000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-06-01": {
+      "value": 567.74996,
+      "raw_value": 567.74996,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-07-01": {
+      "value": 681.79948,
+      "raw_value": 681.79948,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-08-01": {
+      "value": 503.57707999999997,
+      "raw_value": 503.57707999999997,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-09-01": {
+      "value": 488.82362,
+      "raw_value": 488.82362,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-10-01": {
+      "value": 580.607869,
+      "raw_value": 580.607869,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-11-01": {
+      "value": 582.1151300000001,
+      "raw_value": 582.1151300000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2025-12-01": {
+      "value": 709.8360000000001,
+      "raw_value": 709.8360000000001,
+      "imputed": false,
+      "outlier": false
+    },
+    "2026-01-01": {
+      "value": 727.8944499999999,
+      "raw_value": 727.8944499999999,
+      "imputed": false,
+      "outlier": false
+    }
+  }
+}

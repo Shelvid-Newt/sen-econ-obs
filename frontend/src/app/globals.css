@@ -1,26 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* THEME SOMBRE PAR DEFAUT */
+  --bg-primary: #0A0A0F;
+  --bg-surface: #12121A;
+  --bg-elevated: #1A1A25;
+  --border: rgba(255, 255, 255, 0.06);
+  
+  --text-primary: #E8E8ED;
+  --text-secondary: #8B8B9E;
+  --text-muted: #55556A;
+  
+  --accent-gold: #D4A843;
+  --accent-gold-dim: rgba(212, 168, 67, 0.12);
+  --insight-bg: rgba(212, 168, 67, 0.04);
+  --insight-border: rgba(212, 168, 67, 0.12);
+  
+  --data-positive: #2ECC71;
+  --data-negative: #E74C3C;
+  --data-neutral: #5B8DEF;
+  
+  --data-series-1: #5B8DEF;
+  --data-series-2: #D4A843;
+  --data-series-3: #E67E73;
+  --data-series-4: #45B7AA;
+  --data-series-5: #9B72CF;
+  
+  --card-shadow: none;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.light {
+  /* THEME CLAIR (MODE JOUR) */
+  --bg-primary: #F8F7F4;
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #F0EFE9;
+  --border: rgba(0, 0, 0, 0.08);
+  
+  --text-primary: #1A1A1F;
+  --text-secondary: #6B6B7B;
+  --text-muted: #9B9BA8;
+  
+  --accent-gold: #B8942E;
+  --accent-gold-dim: rgba(184, 148, 46, 0.08);
+  --insight-bg: rgba(184, 148, 46, 0.05);
+  --insight-border: rgba(184, 148, 46, 0.15);
+  
+  --data-positive: #1B9E55;
+  --data-negative: #D43D3D;
+  --data-neutral: #3A6FD8;
+  
+  --data-series-1: #3A6FD8;
+  --data-series-2: #B8942E;
+  --data-series-3: #CC5A4E;
+  --data-series-4: #2A9E8F;
+  --data-series-5: #9B72CF;
+  
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-background: var(--bg-primary);
+  --color-surface: var(--bg-surface);
+  --color-elevated: var(--bg-elevated);
+  --color-border-subtle: var(--border);
+  
+  --color-text-main: var(--text-primary);
+  --color-text-sub: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  
+  --color-gold: var(--accent-gold);
+  --color-gold-dim: var(--accent-gold-dim);
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Animations de transition */
+.transition-all-custom {
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Masquer la barre de défilement par défaut pour une bento grid fluide */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-gold);
 }
