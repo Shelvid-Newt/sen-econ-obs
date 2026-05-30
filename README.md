@@ -1,3 +1,4 @@
+
 # Senegal Economic Observatory
 
 > Un tableau de bord interactif de l'économie sénégalaise, construit à partir des données publiques de conjoncture de la **DPEE** (Direction de la Prévision et des Études Économiques) — restructurées, nettoyées et visualisées pour le pilotage.
