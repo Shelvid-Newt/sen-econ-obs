@@ -30,3 +30,23 @@ yarn-error.log*
 # OS files
 .DS_Store
 Thumbs.db
+
+.vercel
+.env*
+
+# AI agent config & internal "factory" docs — not for the public repo
+.claude/
+AUDIT_REFACTOR_FINAL.md
+PROMPT_CLAUDE_CODE_IMPROVEMENTS.md
+DATAVIZ_SPEC.md
+REPRODUCE.md
+
+# Raw source workbook (large binary; the cleaned JSON outputs are committed)
+bulk data/
+
+# Temporary audit / debug scripts
+quantitative_research/_check*.js
+
+# Python cache
+__pycache__/
+*.pyc

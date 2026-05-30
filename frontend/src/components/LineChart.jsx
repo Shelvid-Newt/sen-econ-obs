@@ -26,7 +26,8 @@ export default function LineChart({ data, theme = "dark", height = 260 }) {
     // Nettoyer le SVG
     d3.select(svgRef.current).selectAll("*").remove();
 
-    const margin = { top: 30, right: 90, bottom: 30, left: 30 };
+    const isNarrow = width < 480;
+    const margin = { top: 30, right: isNarrow ? 64 : 90, bottom: 30, left: isNarrow ? 22 : 30 };
     const chartWidth = width - margin.left - margin.right;
     const chartHeight = height - margin.top - margin.bottom;
 
@@ -45,7 +46,7 @@ export default function LineChart({ data, theme = "dark", height = 260 }) {
     })).sort((a, b) => a.parsedDate - b.parsedDate);
 
     // Définir les séries à tracer
-    const seriesNames = ["primaire", "secondaire", "services", "commerce"];
+    const seriesNames = ["primaire", "secondaire", "tertiaire", "commerce"];
     const colors = theme === "dark" 
       ? ["#5B8DEF", "#E67E73", "#D4A843", "#45B7AA"] // Sombre
       : ["#3A6FD8", "#CC5A4E", "#B8942E", "#2A9E8F"]; // Clair
@@ -108,9 +109,7 @@ export default function LineChart({ data, theme = "dark", height = 260 }) {
       );
 
     // Tracer les courbes
-    const lineGenerator = d3.line()
-      .x(d => xScale(d.parsedDate))
-      .y((d, i, nodes) => yScale(d[nodes])); // nodes résout le nom de la série
+    const endLabels = [];
 
     seriesNames.forEach((name, idx) => {
       const lineData = formattedData.map(d => ({
@@ -123,13 +122,23 @@ export default function LineChart({ data, theme = "dark", height = 260 }) {
         .y(d => yScale(d.value))
         .curve(d3.curveMonotoneX);
 
-      // Courbe
-      svg.append("path")
+      // Courbe — animation stroke-dashoffset déclenchée à l'apparition
+      const pathSel = svg.append("path")
         .datum(lineData)
         .attr("fill", "none")
         .attr("stroke", colors[idx])
         .attr("stroke-width", 2)
         .attr("d", pathGenerator);
+
+      const totalLength = pathSel.node().getTotalLength();
+      pathSel
+        .attr("stroke-dasharray", `${totalLength} ${totalLength}`)
+        .attr("stroke-dashoffset", totalLength)
+        .transition()
+        .duration(1100)
+        .delay(idx * 120)
+        .ease(d3.easeCubicInOut)
+        .attr("stroke-dashoffset", 0);
 
       // Point Final Distinctif
       const lastPoint = lineData[lineData.length - 1];
@@ -139,15 +148,34 @@ export default function LineChart({ data, theme = "dark", height = 260 }) {
         .attr("r", 3)
         .attr("fill", colors[idx]);
 
-      // DIRECT LABELING (Étiquetage direct à droite, style FT)
+      // Étiquette de fin collectée pour un placement anti-chevauchement après la boucle
+      endLabels.push({
+        label: `${name.charAt(0).toUpperCase() + name.slice(1)} ${Math.round(lastPoint.value)}`,
+        color: colors[idx],
+        x: xScale(lastPoint.parsedDate),
+        y: yScale(lastPoint.value),
+      });
+    });
+
+    // DIRECT LABELING (style FT) — décalage vertical pour éviter le chevauchement
+    endLabels.sort((a, b) => a.y - b.y);
+    const minGap = 13;
+    for (let i = 1; i < endLabels.length; i++) {
+      if (endLabels[i].y - endLabels[i - 1].y < minGap) {
+        endLabels[i].y = endLabels[i - 1].y + minGap;
+      }
+    }
+    const overflow = endLabels.length ? endLabels[endLabels.length - 1].y - chartHeight : 0;
+    if (overflow > 0) endLabels.forEach((l) => (l.y -= overflow));
+    endLabels.forEach((l) => {
       svg.append("text")
-        .attr("x", xScale(lastPoint.parsedDate) + 8)
-        .attr("y", yScale(lastPoint.value) + 3)
-        .attr("fill", colors[idx])
-        .attr("font-size", "10px")
+        .attr("x", l.x + 8)
+        .attr("y", l.y + 3)
+        .attr("fill", l.color)
+        .attr("font-size", isNarrow ? "9px" : "10px")
         .attr("font-family", "Inter, sans-serif")
         .attr("font-weight", "500")
-        .text(`${name.charAt(0).toUpperCase() + name.slice(1)} ${Math.round(lastPoint.value)}`);
+        .text(l.label);
     });
 
     // --- TOOLTIP INTERACTIF STYLE FINANCIAL TIMES ---

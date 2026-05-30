@@ -24,7 +24,8 @@ export default function ButterflyChart({ data, theme = "dark", height = 220 }) {
 
     d3.select(svgRef.current).selectAll("*").remove();
 
-    const margin = { top: 20, right: 20, bottom: 20, left: 100 };
+    const isNarrow = width < 480;
+    const margin = { top: 20, right: 20, bottom: 20, left: isNarrow ? 84 : 100 };
     const chartWidth = width - margin.left - margin.right;
     const chartHeight = height - margin.top - margin.bottom;
 
@@ -123,16 +124,18 @@ export default function ButterflyChart({ data, theme = "dark", height = 220 }) {
       .on("mouseover", function() { d3.select(this).attr("opacity", 1); })
       .on("mouseout", function() { d3.select(this).attr("opacity", 0.85); });
 
-    // Valeurs numériques d'importation (placées à gauche du début de la barre)
+    // Valeurs numériques d'importation — à l'intérieur de la barre, près du bord
+    // gauche, pour ne jamais chevaucher les libellés produits de la marge.
     svg.selectAll(".text-val-import")
       .data(data.filter(d => d.import > 0))
       .enter()
       .append("text")
-      .attr("x", d => xScaleLeft(d.import) - 6)
+      .attr("x", d => xScaleLeft(d.import) + 7)
       .attr("y", d => yScale(d.product) + yScale.bandwidth() / 2 + 3.5)
-      .attr("text-anchor", "end")
-      .attr("fill", theme === "dark" ? "#8B8B9E" : "#6B6B7B")
+      .attr("text-anchor", "start")
+      .attr("fill", "rgba(255,255,255,0.95)")
       .attr("font-size", "9px")
+      .attr("font-weight", "600")
       .attr("font-family", "JetBrains Mono, monospace")
       .text(d => d.import.toFixed(1));
 

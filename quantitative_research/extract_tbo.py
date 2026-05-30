@@ -150,11 +150,11 @@ class TBOPipeline:
         return dates, raw_vals
 
     def process_series(self, sheet_name, date_col, val_col, start_row, end_row, threshold=3.5, filter_zeros_pre=False):
-        """Extract, detect outliers, interpolate, and format a time series."""
+        """Extract raw values from a sheet column. Only interpolate genuine missing values (None, '-').
+        Outlier detection has been disabled: DPEE official data should be taken as-is."""
         dates, raw_vals = self.get_sheet_series(sheet_name, date_col, val_col, start_row, end_row)
         
         # For gold production or columns where leading zeros are expected before mine starts
-        # we can set them to 0 instead of interpolating them as missing values
         if filter_zeros_pre:
             first_non_null_idx = None
             for idx, val in enumerate(raw_vals):
@@ -166,11 +166,11 @@ class TBOPipeline:
                     if raw_vals[idx] is None or str(raw_vals[idx]).strip() == "-":
                         raw_vals[idx] = 0.0
 
-        # Outlier detection
-        outliers_flags = detect_outliers_mad(raw_vals, threshold=threshold)
+        # NO outlier detection — official DPEE data is authoritative
+        no_outliers = [False] * len(raw_vals)
         
-        # Interpolation
-        imputed_vals, imputed_flags = interpolate_series(raw_vals, outliers_flags)
+        # Interpolate only genuine missing values (None, non-numeric)
+        imputed_vals, imputed_flags = interpolate_series(raw_vals, no_outliers)
         
         series_data = {}
         for i in range(len(dates)):
@@ -178,7 +178,7 @@ class TBOPipeline:
                 "value": imputed_vals[i],
                 "raw_value": raw_vals[i],
                 "imputed": imputed_flags[i],
-                "outlier": outliers_flags[i]
+                "outlier": False
             }
         return series_data
 
@@ -189,36 +189,52 @@ class TBOPipeline:
         consolidated = {}
         
         # 1. Extract Sectoral Indices (Primaire, Secondaire, Tertiaire, Commerce)
-        # sheet: graphes, dates: row 2-122
+        # The "graphes" sheet aggregates formulas referencing source sheets, but is
+        # fragile: when a new month is appended, the formula author has occasionally
+        # shifted by one row (e.g. graphes!E122 pointed at 'Indice Secondaire'!B128
+        # for Jan 2026 instead of B127, yielding 0). We bypass `graphes` and read
+        # each sector directly from its authoritative source sheet.
+        # - primaire_brute  ← Primaire!H              (rows 7-247, date in col A)
+        # - secondaire_brute ← Indice Secondaire!B    (rows 7-127, date in col A)
+        # - tertiaire_brute ← ICAS et ICAC!C          (rows 7-247, date in col A)
+        # - commerce_brute  ← ICAS et ICAC!AO         (rows 7-247, date in col A)
+        # CVS variants remain broken (#REF! in source) — emit explicit nulls.
         print("Extracting Sectoral Indices...")
-        sectors_mapping = {
-            "primaire_brute": 2,
-            "primaire_cvs": 3,
-            "secondaire_brute": 5,
-            "secondaire_cvs": 6,
-            "tertiaire_brute": 8,  # denoted as Services brute
-            "tertiaire_cvs": 9,    # denoted as Sces_CVS
-            "commerce_brute": 11,
-            "commerce_cvs": 12
+        # All four indices are anchored to Jan 2016 (base 100 = 2022). The source
+        # sheets store much older history (back to 2006/2007) in earlier rows, but
+        # the H/C/AO index columns are empty before 2016 — extracting them would
+        # poison the interpolation. We restrict each range to its Jan-2016 anchor.
+        sectors_sources = {
+            "primaire_brute":   ("Primaire",          8, 127, 247),  # col H,  rows 127-247
+            "secondaire_brute": ("Indice Secondaire", 2,   7, 127),  # col B,  rows   7-127
+            "tertiaire_brute":  ("ICAS et ICAC",      3, 115, 235),  # col C,  rows 115-235
+            "commerce_brute":   ("ICAS et ICAC",     41, 115, 235),  # col AO, rows 115-235
         }
+        cvs_names = ["primaire_cvs", "secondaire_cvs", "tertiaire_cvs", "commerce_cvs"]
         sectors_data = {}
-        for name, col in sectors_mapping.items():
-            # Since CVS columns in Excel are broken formulas (#REF!), detect_outliers_mad won't run, 
-            # and we'll just extract the values as Null
-            if name.endswith("_cvs"):
-                dates, raw_vals = self.get_sheet_series("graphes", 1, col, 2, 122)
-                series_data = {}
-                for i in range(len(dates)):
-                    series_data[dates[i]] = {
-                        "value": None,
-                        "raw_value": None,
-                        "imputed": False,
-                        "outlier": False,
-                        "status": "broken_formula_in_source"
-                    }
-                sectors_data[name] = series_data
-            else:
-                sectors_data[name] = self.process_series("graphes", 1, col, 2, 122)
+        for name, (sheet, col, sr, er) in sectors_sources.items():
+            sectors_data[name] = self.process_series(sheet, 1, col, sr, er)
+        # Build empty CVS series mirroring the dates of their _brute counterpart
+        for cvs_name in cvs_names:
+            brute_name = cvs_name.replace("_cvs", "_brute")
+            sectors_data[cvs_name] = {
+                date: {
+                    "value": None,
+                    "raw_value": None,
+                    "imputed": False,
+                    "outlier": False,
+                    "status": "broken_formula_in_source"
+                }
+                for date in sectors_data[brute_name].keys()
+            }
+        # Preserve the original key order expected by downstream consumers
+        sectors_mapping = {
+            "primaire_brute": None, "primaire_cvs": None,
+            "secondaire_brute": None, "secondaire_cvs": None,
+            "tertiaire_brute": None, "tertiaire_cvs": None,
+            "commerce_brute": None, "commerce_cvs": None,
+        }
+        sectors_data = {k: sectors_data[k] for k in sectors_mapping.keys()}
                 
         # 2. Extract Or Production
         # sheet: Secteur Secondaire, date: row 7-247, Column 10
@@ -226,23 +242,44 @@ class TBOPipeline:
         or_data = self.process_series("Secteur Secondaire", 1, 10, 7, 247, filter_zeros_pre=True)
         
         # 3. Extract Ciment Series (Production, Ventes Locales, Exportations)
-        # sheet: Secteur Secondaire, date: row 7-247
+        # sheet: Secteur Secondaire, date: row 7-247. Columns are R/S/T (18/19/20):
+        # col 17 is an off-topic index (~19) — using it produced a bogus "kt"
+        # headline. The real volumes in kt are Production=col 18, Ventes locales=
+        # col 19, Exportations=col 20 (verified against the Jan-2026 TBO).
         print("Extracting Ciment Series...")
         ciment_data = {
-            "production": self.process_series("Secteur Secondaire", 1, 17, 7, 247),
-            "ventes_locales": self.process_series("Secteur Secondaire", 1, 18, 7, 247),
-            "exportations": self.process_series("Secteur Secondaire", 1, 19, 7, 247)
+            "production": self.process_series("Secteur Secondaire", 1, 18, 7, 247),
+            "ventes_locales": self.process_series("Secteur Secondaire", 1, 19, 7, 247),
+            "exportations": self.process_series("Secteur Secondaire", 1, 20, 7, 247)
         }
         
         # 4. Extract Brent Oil Price
         # sheet: Environnement International, date: row 7-247, Column 7
         print("Extracting Brent oil price...")
         brent_data = self.process_series("Environnement International", 1, 7, 7, 247)
-        
+
+        # 4b. Extract Exchange Rates (same sheet): EUR/USD col 11, USD/CFA col 10
+        print("Extracting Exchange Rates (EUR/USD, USD/CFA)...")
+        change_data = {
+            "eur_usd": self.process_series("Environnement International", 1, 11, 7, 247),
+            "usd_cfa": self.process_series("Environnement International", 1, 10, 7, 247),
+        }
+
         # 5. Extract Recettes Fiscales
         # sheet: Finances Publiques , date: row 7-247, Column 4
         print("Extracting Recettes Fiscales...")
         recettes_fiscales_data = self.process_series("Finances Publiques ", 1, 4, 7, 247)
+
+        # 5b. Finances detail: TVA(7), Douanes(8), Recettes non fiscales(11),
+        # Masse salariale(12), Effectifs(14). (No expenditure/debt block in TBO.)
+        print("Extracting Finances detail...")
+        finances_data = {
+            "tva": self.process_series("Finances Publiques ", 1, 7, 7, 247),
+            "douanes": self.process_series("Finances Publiques ", 1, 8, 7, 247),
+            "recettes_non_fiscales": self.process_series("Finances Publiques ", 1, 11, 7, 247),
+            "masse_salariale": self.process_series("Finances Publiques ", 1, 12, 7, 247),
+            "effectifs": self.process_series("Finances Publiques ", 1, 14, 7, 247),
+        }
         
         # 6. Extract Trafic Maritime
         # sheet: Transport, date: row 7-247
@@ -250,6 +287,14 @@ class TBOPipeline:
         trafic_maritime_data = {
             "embarquements_total": self.process_series("Transport", 1, 10, 7, 247),
             "debarquements_total": self.process_series("Transport", 1, 14, 7, 247)
+        }
+
+        # 6b. Extract Air Traffic (Transport sheet): mouvements(2), passagers(3), fret(7)
+        print("Extracting Air Traffic...")
+        transport_aerien_data = {
+            "mouvements": self.process_series("Transport", 1, 2, 7, 247),
+            "passagers": self.process_series("Transport", 1, 3, 7, 247),
+            "fret": self.process_series("Transport", 1, 7, 7, 247),
         }
         
         # 7. Extract Pêche Series (Landings from Primaire and Exports from Commerce Extérieur)
@@ -260,7 +305,25 @@ class TBOPipeline:
             "debarquements_artisanale": self.process_series("Primaire", 1, 5, 7, 247),
             "exportations_volume": self.process_series("Commerce Extérieur", 1, 8, 7, 247)
         }
-        
+
+        # 7b. Extract Foreign Trade flows (Commerce Extérieur), 1000 tonnes
+        #  Imports: Riz(2), Blé(3), Pétrole Brut(4), Hydrocarbures raffinés(5)
+        #  Exports: Arachide vol(6) / valeur Mds FCFA(7), Pêche(8)
+        print("Extracting Commerce Extérieur flows (échanges)...")
+        echanges_data = {
+            "imports": {
+                "riz": self.process_series("Commerce Extérieur", 1, 2, 7, 247),
+                "ble": self.process_series("Commerce Extérieur", 1, 3, 7, 247),
+                "petrole_brut": self.process_series("Commerce Extérieur", 1, 4, 7, 247),
+                "hydrocarbures_raffines": self.process_series("Commerce Extérieur", 1, 5, 7, 247),
+            },
+            "exports": {
+                "arachide": self.process_series("Commerce Extérieur", 1, 6, 7, 247),
+                "peche": self.process_series("Commerce Extérieur", 1, 8, 7, 247),
+            },
+            "arachide_valeur": self.process_series("Commerce Extérieur", 1, 7, 7, 247),
+        }
+
         # 8. Extract Prix Vivriers Series (National Averages)
         # sheet: Prix Intérieurs, date: row 7-211
         print("Extracting Prix Vivriers Series...")
@@ -425,9 +488,13 @@ class TBOPipeline:
         save_json(or_data, "or.json")
         save_json(ciment_data, "ciment.json")
         save_json(brent_data, "brent.json")
+        save_json(change_data, "change.json")
         save_json(recettes_fiscales_data, "recettes_fiscales.json")
+        save_json(finances_data, "finances.json")
         save_json(trafic_maritime_data, "trafic_maritime.json")
+        save_json(transport_aerien_data, "transport_aerien.json")
         save_json(peche_data, "peche.json")
+        save_json(echanges_data, "echanges.json")
         save_json(prix_vivriers_data, "prix_vivriers.json")
         save_json(regional_price_blocks, "prix_regionaux.json")
         save_json(consolidated_series, "consolidated.json")

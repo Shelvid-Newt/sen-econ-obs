@@ -6,10 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:seed": "node --env-file=.env.local scripts/seed.mjs",
+    "db:check": "node --env-file=.env.local -e \"const {neon}=require('@neondatabase/serverless');const s=neon(process.env.DATABASE_URL);s('SELECT 1 as ok').then(r=>console.log('✅ Connected:',r)).catch(e=>console.error('❌',e.message))\""
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
     "d3": "^7.9.0",
+    "d3-sankey": "^0.12.3",
+    "drizzle-orm": "^0.45.2",
     "framer-motion": "^12.40.0",
     "lucide-react": "^1.16.0",
     "next": "16.2.6",

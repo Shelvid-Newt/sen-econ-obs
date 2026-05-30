@@ -2337,10 +2337,10 @@
       "outlier": false
     },
     "2018-05-01": {
-      "value": 17201.5,
+      "value": 19671.0,
       "raw_value": 19671,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2018-06-01": {
       "value": 17689.0,
@@ -2403,16 +2403,16 @@
       "outlier": false
     },
     "2019-04-01": {
-      "value": 16820.333333333332,
+      "value": 20408.0,
       "raw_value": 20408,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2019-05-01": {
-      "value": 16274.666666666666,
+      "value": 22562.0,
       "raw_value": 22562,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2019-06-01": {
       "value": 15729.0,
@@ -2451,46 +2451,46 @@
       "outlier": false
     },
     "2019-12-01": {
-      "value": 13395.375,
+      "value": 19891.0,
       "raw_value": 19891,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2020-01-01": {
-      "value": 14052.75,
+      "value": 19122.0,
       "raw_value": 19122,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2020-02-01": {
-      "value": 14710.125,
+      "value": 21979.0,
       "raw_value": 21979,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2020-03-01": {
-      "value": 15367.5,
+      "value": 25162.0,
       "raw_value": 25162,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2020-04-01": {
-      "value": 16024.875,
+      "value": 23423.0,
       "raw_value": 23423,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2020-05-01": {
-      "value": 16682.25,
+      "value": 26755.0,
       "raw_value": 26755,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2020-06-01": {
-      "value": 17339.625,
+      "value": 23396.0,
       "raw_value": 23396,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2020-07-01": {
       "value": 17997.0,
@@ -2505,10 +2505,10 @@
       "outlier": false
     },
     "2020-09-01": {
-      "value": 15085.0,
+      "value": 19887.0,
       "raw_value": 19887,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2020-10-01": {
       "value": 14452.0,
@@ -2523,88 +2523,88 @@
       "outlier": false
     },
     "2020-12-01": {
-      "value": 15642.266666666666,
+      "value": 26755.0,
       "raw_value": 26755,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-01-01": {
-      "value": 15423.533333333333,
+      "value": 24220.0,
       "raw_value": 24220,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-02-01": {
-      "value": 15204.8,
+      "value": 22050.0,
       "raw_value": 22050,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-03-01": {
-      "value": 14986.066666666668,
+      "value": 25150.0,
       "raw_value": 25150,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-04-01": {
-      "value": 14767.333333333334,
+      "value": 26610.0,
       "raw_value": 26610,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-05-01": {
-      "value": 14548.6,
+      "value": 27080.0,
       "raw_value": 27080,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-06-01": {
-      "value": 14329.866666666667,
+      "value": 23230.0,
       "raw_value": 23230,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-07-01": {
-      "value": 14111.133333333333,
+      "value": 19390.0,
       "raw_value": 19390,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-08-01": {
-      "value": 13892.4,
+      "value": 23600.0,
       "raw_value": 23600,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-09-01": {
-      "value": 13673.666666666666,
+      "value": 22070.0,
       "raw_value": 22070,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-10-01": {
-      "value": 13454.933333333334,
+      "value": 20370.0,
       "raw_value": 20370,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-11-01": {
-      "value": 13236.2,
+      "value": 21440.0,
       "raw_value": 21440,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2021-12-01": {
-      "value": 13017.466666666667,
+      "value": 21940.0,
       "raw_value": 21940,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2022-01-01": {
-      "value": 12798.733333333334,
+      "value": 20150.0,
       "raw_value": 20150,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2022-02-01": {
       "value": 12580.0,
@@ -2613,34 +2613,34 @@
       "outlier": false
     },
     "2022-03-01": {
-      "value": 13180.0,
+      "value": 22250.0,
       "raw_value": 22250,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2022-04-01": {
-      "value": 13780.0,
+      "value": 22860.0,
       "raw_value": 22860,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2022-05-01": {
-      "value": 14380.0,
+      "value": 21480.0,
       "raw_value": 21480,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2022-06-01": {
-      "value": 14980.0,
+      "value": 22500.0,
       "raw_value": 22500,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2022-07-01": {
-      "value": 15580.0,
+      "value": 21350.0,
       "raw_value": 21350,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2022-08-01": {
       "value": 16180.0,
@@ -2661,16 +2661,16 @@
       "outlier": false
     },
     "2022-11-01": {
-      "value": 12680.0,
+      "value": 23540.0,
       "raw_value": 23540,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2022-12-01": {
-      "value": 13370.0,
+      "value": 25940.0,
       "raw_value": 25940,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2023-01-01": {
       "value": 14060.0,
@@ -2685,22 +2685,22 @@
       "outlier": false
     },
     "2023-03-01": {
-      "value": 15662.5,
+      "value": 25740.0,
       "raw_value": 25740,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2023-04-01": {
-      "value": 15805.0,
+      "value": 23740.0,
       "raw_value": 23740,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2023-05-01": {
-      "value": 15947.5,
+      "value": 24960.0,
       "raw_value": 24960,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2023-06-01": {
       "value": 16090.0,
@@ -2709,16 +2709,16 @@
       "outlier": false
     },
     "2023-07-01": {
-      "value": 16730.0,
+      "value": 18570.0,
       "raw_value": 18570,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2023-08-01": {
-      "value": 17370.0,
+      "value": 20380.0,
       "raw_value": 20380,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2023-09-01": {
       "value": 18010.0,
@@ -3713,10 +3713,10 @@
       "outlier": false
     },
     "2017-05-01": {
-      "value": 50342.578499999996,
+      "value": 66661.91600000001,
       "raw_value": 66661.91600000001,
-      "imputed": true,
-      "outlier": true
+      "imputed": false,
+      "outlier": false
     },
     "2017-06-01": {
       "value": 46062.833999999995,

@@ -1,4 +1,5 @@
 import "./globals.css";
+import ThemeProvider from "../components/ThemeProvider.jsx";
 
 export const metadata = {
   title: "Senegal Economic Observatory — Intelligence Économique",
@@ -19,11 +20,18 @@ export const metadata = {
   }
 };
 
+// Apply the persisted theme synchronously before paint to avoid a flash
+// between dark default and the user-selected light mode.
+const themeBootstrap = `(function(){try{var t=localStorage.getItem('seo-theme');if(t==='light'){document.documentElement.classList.add('light');}}catch(e){}})();`;
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr" className="h-full antialiased scroll-smooth">
-      <body className="min-h-full flex flex-col font-sans text-text-main bg-background overflow-x-hidden">
-        {children}
+    <html lang="fr" className="h-full antialiased scroll-smooth" data-scroll-behavior="smooth" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeBootstrap }} />
+      </head>
+      <body className="min-h-full flex flex-col overflow-x-hidden" style={{ backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)', fontFamily: "'Inter', system-ui, -apple-system, sans-serif" }}>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
