@@ -24,7 +24,7 @@ export default function Cover() {
         </h1>
 
         <p className="seo-hero-subtitle">
-          Les données de conjoncture de la DPEE, restructurées pour le pilotage — indicateurs macro, production, échanges et prix, à jour chaque mois.
+          Une plateforme interactive de data visualisation conçue pour vous aider à explorer et comprendre l&apos;économie sénégalaise. Alimentée par les données publiques de la DPEE.
         </p>
 
         <Link href="/dashboard" className="seo-hero-cta">
@@ -34,7 +34,7 @@ export default function Cover() {
 
         <div className="seo-hero-meta">
           <span className="seo-hero-meta-dot" />
-          <span>Dernière mise à jour · 24 mai 2026</span>
+          <span>Dernière mise à jour · 30 mai 2026</span>
           <span style={{ color: "var(--border)" }}>·</span>
           <span>Source · DPEE, TBO Janvier 2026</span>
         </div>
