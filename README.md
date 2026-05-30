@@ -1,66 +1,54 @@
-
 # Senegal Economic Observatory
 
-> Un tableau de bord interactif de l'économie sénégalaise, construit à partir des données publiques de conjoncture de la **DPEE** (Direction de la Prévision et des Études Économiques) — restructurées, nettoyées et visualisées pour le pilotage.
+> Un tableau de bord macroéconomique avancé pour le pilotage de l'économie sénégalaise, développé sur la base des données de conjoncture de la **DPEE** (Direction de la Prévision et des Études Économiques).
 
-Données publiques · esthétique éditoriale (Financial Times × Our World in Data) · indicateurs composites avancés.
-
----
-
-## Aperçu
-
-Une application de type cadran (et non un simple site) : une page de garde, puis un tableau de bord à navigation latérale couvrant :
-
-| Vue | Contenu |
-|-----|---------|
-| **Vue d'ensemble** | KPI macro (recettes, Brent, EUR/USD, USD-CFA), indices sectoriels d'activité, balance commerciale |
-| **Production** | Or, ciment (production / ventes / export), pêche (artisanale vs industrielle) |
-| **Échanges** | Sankey des flux commerciaux, taux de couverture, structure des importations |
-| **Prix** | Suivi national des prix vivriers, dispersion régionale, choroplèthe |
-| **Finances** | Recettes décomposées (TVA, douanes, autres), masse salariale, part des douanes |
-| **Transport** | Trafic maritime (embarquements / débarquements) et aérien (mouvements, passagers, fret) |
-| **Signaux** | Série analytique (en préparation) |
+![Aperçu de l'Observatoire](frontend/public/favicon.ico)
 
 ---
 
-## Méthodologie
+## Vision du projet
 
-### Source
-Toutes les séries proviennent du **Tableau de Bord de l'Économie (TBO)** mensuel de la DPEE. La dernière édition intégrée est **Janvier 2026**.
+Le **Senegal Economic Observatory** a été conçu avec un objectif clair : transformer les données brutes issues des rapports de conjoncture (Tableau de Bord de l'Économie) en une intelligence visuelle immédiatement exploitable pour les décideurs, chercheurs et acteurs économiques.
 
-### Pipeline de traitement
-Le script `quantitative_research/extract_tbo.py` (Python + `openpyxl`) lit le classeur TBO et produit des séries temporelles propres au format JSON (`frontend/public/data/`). Pour chaque série :
+Il ne s'agit pas d'un simple agrégateur de données, mais d'une véritable interface de pilotage alliant :
+1. **Rigueur statistique** : Extraction fidèle et standardisation automatisée des données institutionnelles.
+2. **Accessibilité** : Visualisations interactives et fluides permettant de saisir les tendances structurelles (recettes, production, commerce extérieur) au premier coup d'œil.
+3. **Esthétique éditoriale premium** : Un design épuré, inspiré des standards internationaux (Financial Times, The Economist), pour rendre la lecture des chiffres aussi claire qu'élégante.
 
-1. **Extraction** depuis la feuille et la colonne sources (les agrégats fragiles du classeur sont contournés au profit des feuilles d'origine).
-2. **Détection d'aberrations** par écart absolu médian (MAD, seuil 3,5) — robuste aux valeurs extrêmes.
-3. **Interpolation linéaire** des valeurs manquantes ou aberrantes ; la valeur brute (`raw_value`) est toujours conservée à côté de la valeur traitée (`value`).
+## Données
 
-### Indicateurs dérivés (non triviaux)
-Au-delà des séries brutes, le tableau de bord calcule notamment : indice composite d'activité, **taux de couverture** des échanges, **dispersion régionale** des prix (coefficient de variation inter-marchés), **part de l'artisanal** dans la pêche, **orientation export** du ciment, **volatilité** glissante, **part des douanes** et ratio masse salariale / recettes.
+L'intégralité des données publiées sur ce tableau de bord provient des fichiers publics de la DPEE. 
+Dans un souci de transparence, **les données brutes originales** (format Excel) ayant servi à alimenter l'interface sont incluses dans ce dépôt, sous le dossier `raw_data/`. 
 
-### Limites de données (transparence)
-- **Prix régionaux** : la DPEE a cessé de publier la ventilation par région après **mars 2019** ; la choroplèthe affiche ce dernier relevé, tandis que le **suivi national des prix est à jour** (janvier 2026).
-- **Finances** : le TBO publie les recettes et la masse salariale, **mais ni les dépenses totales ni la dette** — non représentées ici.
-- **Échanges** : le commerce extérieur est exprimé en **volumes** (1000 tonnes), pas en valeur ; la balance des paiements n'est pas couverte.
+Ces données brutes sont ensuite extraites et nettoyées via des scripts de recherche quantitative (Python) avant d'être injectées dans une base de données PostgreSQL (Neon) qui alimente l'API de l'application.
 
----
+## Structure du projet
 
-## Stack technique
+L'architecture est construite autour de technologies modernes (Next.js, Drizzle, PostgreSQL, D3.js) pour garantir performance, flexibilité et extensibilité.
 
-- **Next.js 16** (App Router, Turbopack) · **React 19**
-- **D3 v7** + **d3-sankey** pour les visualisations sur mesure
-- **Tailwind CSS v4**
-- Pipeline de données : **Python** + `openpyxl`
+```text
+senegal-economic-observatory/
+├── frontend/                 # Application Next.js (React 19, App Router)
+│   ├── src/app/              # Routes et pages (Dashboard, Production, Finances...)
+│   ├── src/app/api/          # API REST (Endpoints : /series, /kpis, /prices)
+│   ├── src/components/       # Composants UI et visualisations D3.js interactives
+│   └── src/lib/db/           # Configuration Drizzle ORM et Schémas PostgreSQL
+├── quantitative_research/    # Scripts Python (ETL) pour l'extraction des données
+└── raw_data/                 # Fichiers bruts de conjoncture de la DPEE
+```
 
-## Lancer en local
+## Déploiement Local
+
+Pour lancer le projet sur votre machine locale :
 
 ```bash
 cd frontend
 npm install
 npm run dev
-# http://localhost:3000
+# L'application sera accessible sur http://localhost:3000
 ```
 
 ## Licence
 
-Code et données restructurées publiés sous licence **MIT**. Données sources : DPEE (domaine public).
+Code publié sous licence **MIT**. 
+Les données conjoncturelles sous-jacentes proviennent de la **DPEE** (Domaine public).

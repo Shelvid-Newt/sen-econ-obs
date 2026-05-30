@@ -502,8 +502,10 @@ class TBOPipeline:
         print("\nAll data ingestion, cleanup, outlier detection, and interpolation completed successfully!")
 
 if __name__ == "__main__":
-    wb_path = r"c:\Users\david\OneDrive\Desktop\senegal-economic-observatory\bulk data\TBO_JANVIER_2026 (1).xlsx"
-    out_dir = r"c:\Users\david\OneDrive\Desktop\senegal-economic-observatory\frontend\public\data"
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    wb_path = os.path.join(script_dir, "..", "raw_data", "TBO_JANVIER_2026.xlsx")
+    out_dir = os.path.join(script_dir, "..", "frontend", "public", "data")
     
     pipeline = TBOPipeline(wb_path)
     pipeline.run(out_dir)
