@@ -24,7 +24,6 @@ const NAV = [
   { href: "/finances", label: "Finances", Icon: Landmark },
   { href: "/prix", label: "Prix", Icon: Tags },
   { href: "/transport", label: "Transport", Icon: Plane },
-  { href: "/signaux", label: "Signaux", Icon: Activity },
 ];
 
 function isActive(href, pathname) {

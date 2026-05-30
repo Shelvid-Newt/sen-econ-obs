@@ -40,7 +40,7 @@ export default function Cover() {
         </div>
 
         <div className="seo-hero-links">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Shelvid-Newt/sen-econ-obs" target="_blank" rel="noopener noreferrer">
             <Code2 className="w-3.5 h-3.5" /> Code source
           </a>
           <span style={{ color: "var(--border)" }}>·</span>
