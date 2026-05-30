@@ -85,7 +85,7 @@ export default function EchangesPage() {
           <Stat icon={<Flame className="w-3 h-3" style={{ color: gold }} />} label="Import dominant" value={model?.dominantShare || 0} decimals={0} unit="%" sub={model?.dominant?.label || "—"} />
         </div>
 
-        {/* SANKEY */}
+        {/* SANKEY - TEMPORARILY DISABLED 
         <div className="seo-card flex flex-col">
           <div className="flex justify-between items-start gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
             <div>
@@ -103,6 +103,7 @@ export default function EchangesPage() {
             Source · DPEE, TBO Janv. 2026 — Commerce Extérieur (volumes). Épaisseur ∝ tonnage.
           </div>
         </div>
+        */}
 
         {/* TRENDS */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">

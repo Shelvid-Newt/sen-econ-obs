@@ -121,7 +121,7 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* COMMERCE + BALANCE */}
+        {/* COMMERCE + BALANCE - TEMPORARILY DISABLED 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div className="lg:col-span-2 seo-card flex flex-col">
             <div className="flex justify-between items-center gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
@@ -175,6 +175,7 @@ export default function DashboardPage() {
             </div>
           </div>
         </div>
+        */}
       </div>
     </div>
   );
