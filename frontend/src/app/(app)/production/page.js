@@ -122,7 +122,7 @@ export default function ProductionPage() {
           <div className="flex justify-between items-start gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
             <div>
               <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>
-                Le ciment produit part de plus en plus à l&apos;export
+                Répartition de la production de ciment
               </h3>
               <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>Production · ventes locales · exportations — kt, 36 mois</span>
             </div>
@@ -153,7 +153,7 @@ export default function ProductionPage() {
             <div className="flex justify-between items-start gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
               <div>
                 <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>
-                  La pêche artisanale porte l&apos;essentiel des débarquements
+                  Débarquements maritimes par type de pêche
                 </h3>
                 <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>Débarquements par type — tonnes, 36 mois</span>
               </div>
@@ -179,7 +179,7 @@ export default function ProductionPage() {
             <div className="flex justify-between items-start gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
               <div>
                 <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>
-                  L&apos;or, le poste le plus volatil de la production
+                  Production aurifère industrielle
                 </h3>
                 <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>Production aurifère — kg, 48 mois</span>
               </div>

@@ -82,7 +82,7 @@ export default function TransportPage() {
           </div>
           <div className="seo-card flex flex-col">
             <div className="flex justify-between items-start gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
-              <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>Le port débarque bien plus qu&apos;il n&apos;embarque</h3>
+              <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>Trafic maritime : Débarquements vs Embarquements</h3>
               <span className="seo-stat-pill">Ratio · {(M?.ratio || 0).toFixed(1)}×</span>
             </div>
             {loading || !M ? skel(300) : (

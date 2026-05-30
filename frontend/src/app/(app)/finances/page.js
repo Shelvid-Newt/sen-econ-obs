@@ -82,7 +82,7 @@ export default function FinancesPage() {
         <div className="seo-card flex flex-col">
           <div className="flex justify-between items-start gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
             <div>
-              <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>La TVA porte les recettes, les douanes restent secondaires</h3>
+              <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>Structure et composition des recettes fiscales</h3>
               <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>Composition des recettes — Mds FCFA, 36 mois</span>
             </div>
             <span className="seo-stat-pill">Douanes · {(model?.partDouanes || 0).toFixed(0)}%</span>

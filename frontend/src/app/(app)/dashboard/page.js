@@ -97,7 +97,7 @@ export default function DashboardPage() {
           <div className="flex justify-between items-start gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
             <div>
               <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>
-                Le tertiaire porte l&apos;activité, le primaire décroche
+                Évolution des indices synthétiques d&apos;activité sectorielle
               </h3>
               <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>
                 Indices sectoriels d&apos;activité · base 100 = 2022
@@ -127,13 +127,13 @@ export default function DashboardPage() {
             <div className="flex justify-between items-center gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
               <h3 className="font-display font-semibold text-base flex items-center gap-2" style={{ color: "var(--text-primary)" }}>
                 <ArrowRightLeft className="w-4 h-4 flex-shrink-0" style={{ color: gold }} />
-                Le Sénégal importe son énergie, exporte ses matières premières
+                Structure des principaux échanges commerciaux
               </h3>
               <span className="font-mono text-[8px]" style={{ color: "var(--text-muted)" }}>Mds FCFA · Janv. 2026</span>
             </div>
             <ButterflyChart data={exchanges} theme={theme} />
             <div className="mt-auto pt-3 flex justify-between text-[9px] italic" style={{ borderTop: "1px solid var(--border)", color: "var(--text-muted)" }}>
-              <span>Déséquilibre marqué sur les hydrocarbures raffinés et le blé</span>
+              <span>Principaux postes d&apos;importation et d&apos;exportation</span>
               <Link href="/echanges" className="flex items-center gap-1 font-mono seo-nav-link" style={{ fontStyle: "normal" }}>
                 Détail <ArrowRight className="w-3 h-3" />
               </Link>

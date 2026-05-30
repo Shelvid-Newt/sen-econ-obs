@@ -90,7 +90,7 @@ export default function EchangesPage() {
           <div className="flex justify-between items-start gap-3 flex-wrap pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
             <div>
               <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>
-                Importer l&apos;énergie, exporter la mer
+                Flux de marchandises (Import / Export)
               </h3>
               <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>Flux de marchandises · cumul 12 mois · 1000 tonnes</span>
             </div>
@@ -108,7 +108,7 @@ export default function EchangesPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="seo-card flex flex-col">
             <div className="pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
-              <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>Les hydrocarbures raffinés dominent les importations</h3>
+              <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>Évolution des importations par produit</h3>
               <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>Importations par produit — kt, 36 mois</span>
             </div>
             {loading || !model ? skel(300) : (
@@ -119,7 +119,7 @@ export default function EchangesPage() {
 
           <div className="seo-card flex flex-col">
             <div className="pb-3 mb-4" style={{ borderBottom: "1px solid var(--border)" }}>
-              <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>Des exportations rares et saisonnières</h3>
+              <h3 className="font-display font-semibold text-base leading-snug" style={{ color: "var(--text-primary)" }}>Évolution des exportations par produit</h3>
               <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>Exportations par produit — kt, 36 mois</span>
             </div>
             {loading || !model ? skel(300) : (
